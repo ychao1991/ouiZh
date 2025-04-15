@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiFacetButton is rendered 1`] = `
+<button
+  aria-label="aria-label"
+  class="ouiFacetButton ouiFacetButton--unSelected testClass1 testClass2"
+  data-test-subj="test subject string"
+  title="aria-label"
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`OuiFacetButton props icon is rendered 1`] = `
+<button
+  class="ouiFacetButton ouiFacetButton--unSelected"
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__icon"
+      data-ouiicon-type="dot"
+    />
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`OuiFacetButton props isDisabled is rendered 1`] = `
+<button
+  class="ouiFacetButton ouiFacetButton--unSelected"
+  disabled=""
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`OuiFacetButton props isLoading is rendered 1`] = `
+<button
+  class="ouiFacetButton ouiFacetButton--unSelected"
+  disabled=""
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+    <span
+      class="ouiLoadingSpinner ouiLoadingSpinner--medium ouiFacetButton__spinner"
+    />
+  </span>
+</button>
+`;
+
+exports[`OuiFacetButton props isSelected is rendered 1`] = `
+<button
+  class="ouiFacetButton ouiFacetButton--isSelected"
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`OuiFacetButton props quantity is rendered 1`] = `
+<button
+  class="ouiFacetButton ouiFacetButton--unSelected"
+  type="button"
+>
+  <span
+    class="ouiFacetButton__content"
+  >
+    <span
+      class="ouiFacetButton__text"
+    >
+      Content
+    </span>
+    <span
+      class="ouiNotificationBadge ouiNotificationBadge--medium ouiNotificationBadge--subdued ouiFacetButton__quantity"
+    >
+      60
+    </span>
+  </span>
+</button>
+`;

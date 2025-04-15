@@ -1,0 +1,2677 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiDataGrid pagination renders 1`] = `
+<div
+  class="ouiFlexGroup ouiFlexGroup--gutterLarge ouiFlexGroup--alignItemsCenter ouiFlexGroup--justifyContentSpaceBetween ouiFlexGroup--directionRow"
+>
+  <div
+    class="ouiFlexItem ouiFlexItem--flexGrowZero"
+  >
+    <div
+      class="ouiPopover ouiPopover--anchorUpRight"
+    >
+      <div
+        class="ouiPopover__anchor"
+      >
+        <button
+          class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall"
+          data-test-subj="tablePaginationPopoverButton"
+          type="button"
+        >
+          <span
+            class="ouiButtonContent ouiButtonContent--iconRight ouiButtonEmpty__content"
+          >
+            <span
+              class="ouiButtonContent__icon"
+              color="inherit"
+              data-ouiicon-type="arrowDown"
+            />
+            <span
+              class="ouiButtonEmpty__text"
+            >
+              Rows per page: 6
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ouiFlexItem ouiFlexItem--flexGrowZero"
+  >
+    <nav
+      aria-label="Pagination for preceding grid: test grid"
+      class="ouiPagination"
+    >
+      <a
+        aria-controls="generated-id"
+        aria-label="Previous page, 1"
+        class="ouiButtonIcon ouiButtonIcon--text ouiButtonIcon--empty ouiButtonIcon--xSmall"
+        data-test-subj="pagination-button-previous"
+        href="#generated-id"
+        rel="noreferrer"
+      >
+        <span
+          aria-hidden="true"
+          class="ouiButtonIcon__icon"
+          color="inherit"
+          data-ouiicon-type="arrowLeft"
+        />
+      </a>
+      <ul
+        aria-label="Pagination for preceding grid: test grid"
+        class="ouiPagination__list"
+      >
+        <li
+          class="ouiPagination__item"
+        >
+          <a
+            aria-controls="generated-id"
+            aria-label="Page 1 of 2"
+            class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--small ouiPaginationButton ouiPaginationButton--hideOnMobile"
+            data-test-subj="pagination-button-0"
+            href="#generated-id"
+            rel="noreferrer"
+          >
+            <span
+              class="ouiButtonContent ouiButtonEmpty__content"
+            >
+              <span
+                class="ouiButtonEmpty__text"
+              >
+                1
+              </span>
+            </span>
+          </a>
+        </li>
+        <li
+          class="ouiPagination__item"
+        >
+          <button
+            aria-controls="generated-id"
+            aria-current="true"
+            aria-label="Page 2 of 2"
+            class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--small ouiButtonEmpty-isDisabled ouiPaginationButton ouiPaginationButton-isActive ouiPaginationButton--hideOnMobile"
+            data-test-subj="pagination-button-1"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="ouiButtonContent ouiButtonEmpty__content"
+            >
+              <span
+                class="ouiButtonEmpty__text"
+              >
+                2
+              </span>
+            </span>
+          </button>
+        </li>
+      </ul>
+      <button
+        aria-label="Next page"
+        class="ouiButtonIcon ouiButtonIcon--text ouiButtonIcon--empty ouiButtonIcon--xSmall"
+        data-test-subj="pagination-button-next"
+        disabled=""
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          class="ouiButtonIcon__icon"
+          color="inherit"
+          data-ouiicon-type="arrowRight"
+        />
+      </button>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`OuiDataGrid render column actions renders various column actions configurations 1`] = `
+<ul
+  className="ouiListGroup ouiListGroup-maxWidthDefault"
+  data-test-subj="dataGridHeaderCellActionGroup-B"
+>
+  <OuiListGroupItem
+    color="text"
+    iconType="eyeClosed"
+    key="title-0"
+    label={
+      <OuiI18n
+        default="Hide column"
+        token="ouiColumnActions.hideColumn"
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="eyeClosed"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="eyeClosed"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Hide column"
+        >
+          <OuiI18n
+            default="Hide column"
+            token="ouiColumnActions.hideColumn"
+          >
+            Hide column
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortUp"
+    isDisabled={false}
+    key="title-1"
+    label={
+      <OuiI18n
+        default="Sort {schemaLabel}"
+        token="ouiColumnActions.sort"
+        values={
+          Object {
+            "schemaLabel": <OuiI18n
+              default="A-Z"
+              token="ouiColumnSortingDraggable.defaultSortAsc"
+            />,
+          }
+        }
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortUp"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortUp"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Sort A-Z"
+        >
+          <OuiI18n
+            default="Sort {schemaLabel}"
+            token="ouiColumnActions.sort"
+            values={
+              Object {
+                "schemaLabel": <OuiI18n
+                  default="A-Z"
+                  token="ouiColumnSortingDraggable.defaultSortAsc"
+                />,
+              }
+            }
+          >
+            <Component
+              schemaLabel={
+                <OuiI18n
+                  default="A-Z"
+                  token="ouiColumnSortingDraggable.defaultSortAsc"
+                />
+              }
+            >
+              Sort 
+              <OuiI18n
+                default="A-Z"
+                key="1"
+                token="ouiColumnSortingDraggable.defaultSortAsc"
+              >
+                A-Z
+              </OuiI18n>
+            </Component>
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortDown"
+    isDisabled={false}
+    key="title-2"
+    label={
+      <OuiI18n
+        default="Sort {schemaLabel}"
+        token="ouiColumnActions.sort"
+        values={
+          Object {
+            "schemaLabel": <OuiI18n
+              default="Z-A"
+              token="ouiColumnSortingDraggable.defaultSortDesc"
+            />,
+          }
+        }
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortDown"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortDown"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Sort Z-A"
+        >
+          <OuiI18n
+            default="Sort {schemaLabel}"
+            token="ouiColumnActions.sort"
+            values={
+              Object {
+                "schemaLabel": <OuiI18n
+                  default="Z-A"
+                  token="ouiColumnSortingDraggable.defaultSortDesc"
+                />,
+              }
+            }
+          >
+            <Component
+              schemaLabel={
+                <OuiI18n
+                  default="Z-A"
+                  token="ouiColumnSortingDraggable.defaultSortDesc"
+                />
+              }
+            >
+              Sort 
+              <OuiI18n
+                default="Z-A"
+                key="1"
+                token="ouiColumnSortingDraggable.defaultSortDesc"
+              >
+                Z-A
+              </OuiI18n>
+            </Component>
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    color="text"
+    iconType="sortLeft"
+    isDisabled={false}
+    key="title-3"
+    label={
+      <OuiI18n
+        default="Move left"
+        token="ouiColumnActions.moveLeft"
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortLeft"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortLeft"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Move left"
+        >
+          <OuiI18n
+            default="Move left"
+            token="ouiColumnActions.moveLeft"
+          >
+            Move left
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    color="text"
+    iconType="sortRight"
+    isDisabled={false}
+    key="title-4"
+    label={
+      <OuiI18n
+        default="Move right"
+        token="ouiColumnActions.moveRight"
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortRight"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortRight"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Move right"
+        >
+          <OuiI18n
+            default="Move right"
+            token="ouiColumnActions.moveRight"
+          >
+            Move right
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+</ul>
+`;
+
+exports[`OuiDataGrid render column actions renders various column actions configurations 2`] = `
+<ul
+  className="ouiListGroup ouiListGroup-maxWidthDefault"
+  data-test-subj="dataGridHeaderCellActionGroup-C"
+>
+  <OuiListGroupItem
+    key="title-0"
+    label="test"
+    onClick={[Function]}
+    showToolTip={false}
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--medium ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="ouiListGroupItem__label"
+          title="test"
+        >
+          test
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+</ul>
+`;
+
+exports[`OuiDataGrid render column actions renders various column actions configurations 3`] = `
+<ul
+  className="ouiListGroup ouiListGroup-maxWidthDefault"
+  data-test-subj="dataGridHeaderCellActionGroup-D"
+>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortUp"
+    isDisabled={false}
+    key="title-0"
+    label={
+      <OuiI18n
+        default="Sort {schemaLabel}"
+        token="ouiColumnActions.sort"
+        values={
+          Object {
+            "schemaLabel": <OuiI18n
+              default="A-Z"
+              token="ouiColumnSortingDraggable.defaultSortAsc"
+            />,
+          }
+        }
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortUp"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortUp"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Sort A-Z"
+        >
+          <OuiI18n
+            default="Sort {schemaLabel}"
+            token="ouiColumnActions.sort"
+            values={
+              Object {
+                "schemaLabel": <OuiI18n
+                  default="A-Z"
+                  token="ouiColumnSortingDraggable.defaultSortAsc"
+                />,
+              }
+            }
+          >
+            <Component
+              schemaLabel={
+                <OuiI18n
+                  default="A-Z"
+                  token="ouiColumnSortingDraggable.defaultSortAsc"
+                />
+              }
+            >
+              Sort 
+              <OuiI18n
+                default="A-Z"
+                key="1"
+                token="ouiColumnSortingDraggable.defaultSortAsc"
+              >
+                A-Z
+              </OuiI18n>
+            </Component>
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortDown"
+    isDisabled={false}
+    key="title-1"
+    label={
+      <OuiI18n
+        default="Sort {schemaLabel}"
+        token="ouiColumnActions.sort"
+        values={
+          Object {
+            "schemaLabel": <OuiI18n
+              default="Z-A"
+              token="ouiColumnSortingDraggable.defaultSortDesc"
+            />,
+          }
+        }
+      />
+    }
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortDown"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortDown"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="Sort Z-A"
+        >
+          <OuiI18n
+            default="Sort {schemaLabel}"
+            token="ouiColumnActions.sort"
+            values={
+              Object {
+                "schemaLabel": <OuiI18n
+                  default="Z-A"
+                  token="ouiColumnSortingDraggable.defaultSortDesc"
+                />,
+              }
+            }
+          >
+            <Component
+              schemaLabel={
+                <OuiI18n
+                  default="Z-A"
+                  token="ouiColumnSortingDraggable.defaultSortDesc"
+                />
+              }
+            >
+              Sort 
+              <OuiI18n
+                default="Z-A"
+                key="1"
+                token="ouiColumnSortingDraggable.defaultSortDesc"
+              >
+                Z-A
+              </OuiI18n>
+            </Component>
+          </OuiI18n>
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    key="title-2"
+    label="test"
+    onClick={[Function]}
+    showToolTip={false}
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--medium ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="ouiListGroupItem__label"
+          title="test"
+        >
+          test
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+</ul>
+`;
+
+exports[`OuiDataGrid render column actions renders various column actions configurations 4`] = `
+<ul
+  className="ouiListGroup ouiListGroup-maxWidthDefault"
+  data-test-subj="dataGridHeaderCellActionGroup-E"
+>
+  <OuiListGroupItem
+    color="text"
+    iconType="eyeClosed"
+    key="title-0"
+    label="1"
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="eyeClosed"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="eyeClosed"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="1"
+        >
+          1
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortUp"
+    isDisabled={false}
+    key="title-1"
+    label="2"
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortUp"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortUp"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="2"
+        >
+          2
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    className=""
+    color="text"
+    iconType="sortDown"
+    isDisabled={false}
+    key="title-2"
+    label="3"
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortDown"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortDown"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="3"
+        >
+          3
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    color="text"
+    iconType="sortLeft"
+    isDisabled={false}
+    key="title-3"
+    label="4"
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortLeft"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortLeft"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="4"
+        >
+          4
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    color="text"
+    iconType="sortRight"
+    isDisabled={true}
+    key="title-4"
+    label="5"
+    onClick={[Function]}
+    showToolTip={false}
+    size="xs"
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--xSmall ouiListGroupItem--text ouiListGroupItem-isDisabled ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <OuiIcon
+          className="ouiListGroupItem__icon"
+          color="inherit"
+          type="sortRight"
+        >
+          <span
+            className="ouiListGroupItem__icon"
+            color="inherit"
+            data-ouiicon-type="sortRight"
+          />
+        </OuiIcon>
+        <span
+          className="ouiListGroupItem__label"
+          title="5"
+        >
+          5
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+  <OuiListGroupItem
+    key="title-5"
+    label="test"
+    onClick={[Function]}
+    showToolTip={false}
+    wrapText={false}
+  >
+    <li
+      className="ouiListGroupItem ouiListGroupItem--medium ouiListGroupItem-isClickable"
+    >
+      <button
+        className="ouiListGroupItem__button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="ouiListGroupItem__label"
+          title="test"
+        >
+          test
+        </span>
+      </button>
+    </li>
+  </OuiListGroupItem>
+</ul>
+`;
+
+exports[`OuiDataGrid rendering renders additional toolbar controls 1`] = `
+Array [
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    class="ouiDataGrid__focusWrap"
+    data-focus-lock-disabled="disabled"
+  >
+    <div
+      class="ouiDataGrid ouiDataGrid--bordersAll ouiDataGrid--headerShade ouiDataGrid--footerOverline ouiDataGrid--rowHoverHighlight ouiDataGrid--stickyFooter testClass1 testClass2"
+      data-test-subj="test subject string"
+    >
+      <div
+        class="ouiDataGrid__controls"
+        data-test-sub="dataGridControls"
+      >
+        <button>
+          Button
+        </button>
+        <div
+          class="ouiPopover ouiPopover--anchorDownLeft"
+          data-test-subj="dataGridColumnSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridColumnSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="listAdd"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Columns
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="ouiPopover ouiPopover--anchorDownCenter"
+          data-test-subj="dataGridStyleSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridStyleSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="tableDensityExpanded"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Density
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn testClass1 testClass2"
+          data-test-subj="dataGridFullScrenButton"
+          type="button"
+        >
+          <span
+            class="ouiButtonContent ouiButtonEmpty__content"
+          >
+            <span
+              class="ouiButtonContent__icon"
+              color="inherit"
+              data-ouiicon-type="fullScreen"
+            />
+            <span
+              class="ouiButtonEmpty__text"
+            >
+              Full screen
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="ouiDataGrid__verticalScroll"
+      >
+        <div
+          class="ouiDataGrid__overflow"
+        >
+          <div
+            aria-label="aria-label"
+            class="ouiDataGrid__content"
+            data-test-subj="dataGridWrapper"
+            id="generated-id"
+            role="grid"
+            tabindex="0"
+          >
+            <div
+              style="width:100%;height:100%;overflow:hidden"
+            >
+              <div
+                class="ouiDataGrid__virtualized"
+                style="position:relative;height:9007199254740991px;width:9007199254740991px;overflow:auto;-webkit-overflow-scrolling:touch;will-change:transform;direction:ltr"
+              >
+                <div
+                  style="height:102px;width:200px"
+                >
+                  <div
+                    class="ouiDataGridHeader"
+                    data-test-subj="dataGridHeader"
+                    role="row"
+                  >
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-A"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              A
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-A"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-B"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              B
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-B"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        hidden=""
+        id="generated-id"
+      >
+        Cell contains interactive content.
+      </p>
+    </div>
+  </div>,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+]
+`;
+
+exports[`OuiDataGrid rendering renders control columns 1`] = `
+Array [
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    class="ouiDataGrid__focusWrap"
+    data-focus-lock-disabled="disabled"
+  >
+    <div
+      class="ouiDataGrid ouiDataGrid--bordersAll ouiDataGrid--headerShade ouiDataGrid--footerOverline ouiDataGrid--rowHoverHighlight ouiDataGrid--stickyFooter testClass1 testClass2"
+      data-test-subj="test subject string"
+    >
+      <div
+        class="ouiDataGrid__controls"
+        data-test-sub="dataGridControls"
+      >
+        <button>
+          Button
+        </button>
+        <div
+          class="ouiPopover ouiPopover--anchorDownLeft"
+          data-test-subj="dataGridColumnSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridColumnSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="listAdd"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Columns
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="ouiPopover ouiPopover--anchorDownCenter"
+          data-test-subj="dataGridStyleSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridStyleSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="tableDensityExpanded"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Density
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn testClass1 testClass2"
+          data-test-subj="dataGridFullScrenButton"
+          type="button"
+        >
+          <span
+            class="ouiButtonContent ouiButtonEmpty__content"
+          >
+            <span
+              class="ouiButtonContent__icon"
+              color="inherit"
+              data-ouiicon-type="fullScreen"
+            />
+            <span
+              class="ouiButtonEmpty__text"
+            >
+              Full screen
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="ouiDataGrid__verticalScroll"
+      >
+        <div
+          class="ouiDataGrid__overflow"
+        >
+          <div
+            aria-label="aria-label"
+            class="ouiDataGrid__content"
+            data-test-subj="dataGridWrapper"
+            id="generated-id"
+            role="grid"
+            tabindex="0"
+          >
+            <div
+              style="width:100%;height:100%;overflow:hidden"
+            >
+              <div
+                class="ouiDataGrid__virtualized"
+                style="position:relative;height:9007199254740991px;width:9007199254740991px;overflow:auto;-webkit-overflow-scrolling:touch;will-change:transform;direction:ltr"
+              >
+                <div
+                  style="height:102px;width:300px"
+                >
+                  <div
+                    class="ouiDataGridHeader"
+                    data-test-subj="dataGridHeader"
+                    role="row"
+                  >
+                    <div
+                      class="ouiDataGridHeaderCell ouiDataGridHeaderCell--controlColumn"
+                      data-test-subj="dataGridHeaderCell-leading"
+                      role="columnheader"
+                      style="width:50px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridHeaderCell__content"
+                      >
+                        <span>
+                          leading heading
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-A"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              A
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-A"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-B"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              B
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-B"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell ouiDataGridHeaderCell--controlColumn"
+                      data-test-subj="dataGridHeaderCell-trailing"
+                      role="columnheader"
+                      style="width:50px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridHeaderCell__content"
+                      >
+                        <span>
+                          trailing heading
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:0px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            0
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 1, Column: 1:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:50px;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:150px;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 3:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:250px;top:0px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            0
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 1, Column: 4:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--firstColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:34px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            1
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 2, Column: 1:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:50px;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:150px;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 3:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--lastColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:250px;top:34px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            1
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 2, Column: 4:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:68px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            2
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 3, Column: 1:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:50px;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:150px;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 3:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn ouiDataGridRowCell--controlColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:250px;top:68px;height:34px;width:50px"
+                    tabindex="-1"
+                  >
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                    <div
+                      data-focus-lock-disabled="disabled"
+                    >
+                      <div
+                        class="ouiDataGridRowCell__expandFlex "
+                      >
+                        <div
+                          class="ouiDataGridRowCell__expandContent"
+                        >
+                          <div
+                            class="ouiDataGridRowCell__truncate"
+                          >
+                            2
+                            <p
+                              class="ouiScreenReaderOnly"
+                            >
+                              Row: 3, Column: 4:
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-focus-guard="true"
+                      style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+                      tabindex="-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        hidden=""
+        id="generated-id"
+      >
+        Cell contains interactive content.
+      </p>
+    </div>
+  </div>,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+]
+`;
+
+exports[`OuiDataGrid rendering renders custom column headers 1`] = `
+Array [
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    class="ouiDataGrid__focusWrap"
+    data-focus-lock-disabled="disabled"
+  >
+    <div
+      class="ouiDataGrid ouiDataGrid--bordersAll ouiDataGrid--headerShade ouiDataGrid--footerOverline ouiDataGrid--rowHoverHighlight ouiDataGrid--stickyFooter testClass1 testClass2"
+      data-test-subj="test subject string"
+    >
+      <div
+        class="ouiDataGrid__controls"
+        data-test-sub="dataGridControls"
+      >
+        <div
+          class="ouiPopover ouiPopover--anchorDownLeft"
+          data-test-subj="dataGridColumnSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridColumnSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="listAdd"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Columns
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="ouiPopover ouiPopover--anchorDownCenter"
+          data-test-subj="dataGridStyleSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridStyleSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="tableDensityExpanded"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Density
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn testClass1 testClass2"
+          data-test-subj="dataGridFullScrenButton"
+          type="button"
+        >
+          <span
+            class="ouiButtonContent ouiButtonEmpty__content"
+          >
+            <span
+              class="ouiButtonContent__icon"
+              color="inherit"
+              data-ouiicon-type="fullScreen"
+            />
+            <span
+              class="ouiButtonEmpty__text"
+            >
+              Full screen
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="ouiDataGrid__verticalScroll"
+      >
+        <div
+          class="ouiDataGrid__overflow"
+        >
+          <div
+            aria-label="aria-label"
+            class="ouiDataGrid__content"
+            data-test-subj="dataGridWrapper"
+            id="generated-id"
+            role="grid"
+            tabindex="0"
+          >
+            <div
+              style="width:100%;height:100%;overflow:hidden"
+            >
+              <div
+                class="ouiDataGrid__virtualized"
+                style="position:relative;height:9007199254740991px;width:9007199254740991px;overflow:auto;-webkit-overflow-scrolling:touch;will-change:transform;direction:ltr"
+              >
+                <div
+                  style="height:102px;width:200px"
+                >
+                  <div
+                    class="ouiDataGridHeader"
+                    data-test-subj="dataGridHeader"
+                    role="row"
+                  >
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-A"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              Column A
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-A"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-B"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              <div>
+                                More Elements
+                              </div>
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-B"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        hidden=""
+        id="generated-id"
+      >
+        Cell contains interactive content.
+      </p>
+    </div>
+  </div>,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+]
+`;
+
+exports[`OuiDataGrid rendering renders with common and div attributes 1`] = `
+Array [
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+  <div
+    class="ouiDataGrid__focusWrap"
+    data-focus-lock-disabled="disabled"
+  >
+    <div
+      class="ouiDataGrid ouiDataGrid--bordersAll ouiDataGrid--headerShade ouiDataGrid--footerOverline ouiDataGrid--rowHoverHighlight ouiDataGrid--stickyFooter testClass1 testClass2"
+      data-test-subj="test subject string"
+    >
+      <div
+        class="ouiDataGrid__controls"
+        data-test-sub="dataGridControls"
+      >
+        <div
+          class="ouiPopover ouiPopover--anchorDownLeft"
+          data-test-subj="dataGridColumnSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridColumnSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="listAdd"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Columns
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="ouiPopover ouiPopover--anchorDownCenter"
+          data-test-subj="dataGridStyleSelectorPopover"
+        >
+          <div
+            class="ouiPopover__anchor"
+          >
+            <button
+              class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn"
+              data-test-subj="dataGridStyleSelectorButton"
+              type="button"
+            >
+              <span
+                class="ouiButtonContent ouiButtonEmpty__content"
+              >
+                <span
+                  class="ouiButtonContent__icon"
+                  color="inherit"
+                  data-ouiicon-type="tableDensityExpanded"
+                />
+                <span
+                  class="ouiButtonEmpty__text"
+                >
+                  Density
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          class="ouiButtonEmpty ouiButtonEmpty--text ouiButtonEmpty--xSmall ouiDataGrid__controlBtn testClass1 testClass2"
+          data-test-subj="dataGridFullScrenButton"
+          type="button"
+        >
+          <span
+            class="ouiButtonContent ouiButtonEmpty__content"
+          >
+            <span
+              class="ouiButtonContent__icon"
+              color="inherit"
+              data-ouiicon-type="fullScreen"
+            />
+            <span
+              class="ouiButtonEmpty__text"
+            >
+              Full screen
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="ouiDataGrid__verticalScroll"
+      >
+        <div
+          class="ouiDataGrid__overflow"
+        >
+          <div
+            aria-label="aria-label"
+            class="ouiDataGrid__content"
+            data-test-subj="dataGridWrapper"
+            id="generated-id"
+            role="grid"
+            tabindex="0"
+          >
+            <div
+              style="width:100%;height:100%;overflow:hidden"
+            >
+              <div
+                class="ouiDataGrid__virtualized"
+                style="position:relative;height:9007199254740991px;width:9007199254740991px;overflow:auto;-webkit-overflow-scrolling:touch;will-change:transform;direction:ltr"
+              >
+                <div
+                  style="height:102px;width:200px"
+                >
+                  <div
+                    class="ouiDataGridHeader"
+                    data-test-subj="dataGridHeader"
+                    role="row"
+                  >
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-A"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              A
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-A"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ouiDataGridHeaderCell"
+                      data-test-subj="dataGridHeaderCell-B"
+                      role="columnheader"
+                      style="width:100px"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="ouiDataGridColumnResizer"
+                        data-test-subj="dataGridColumnResizer"
+                        style="margin-right:0px"
+                      />
+                      <div
+                        class="ouiPopover ouiPopover--anchorDownCenter"
+                        offset="7"
+                      >
+                        <div
+                          class="ouiPopover__anchor ouiDataGridHeaderCell__anchor"
+                        >
+                          <button
+                            class="ouiDataGridHeaderCell__button"
+                          >
+                            <div
+                              class="ouiDataGridHeaderCell__content"
+                            >
+                              B
+                            </div>
+                            <span
+                              aria-label="Header actions"
+                              class="ouiDataGridHeaderCell__icon"
+                              color="text"
+                              data-ouiicon-type="arrowDown"
+                              data-test-subj="dataGridHeaderCellActionButton-B"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:0px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        0, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 1, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--stripe ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:34px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        1, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 2, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--firstColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:0;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, A
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 1:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ouiDataGridRowCell ouiDataGridRowCell--lastColumn"
+                    data-test-subj="dataGridRowCell"
+                    role="gridcell"
+                    style="position:absolute;left:100px;top:68px;height:34px;width:100px"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ouiDataGridRowCell__expandFlex "
+                    >
+                      <div
+                        class="ouiDataGridRowCell__truncate"
+                      >
+                        2, B
+                        <p
+                          class="ouiScreenReaderOnly"
+                        >
+                          Row: 3, Column: 2:
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        hidden=""
+        id="generated-id"
+      >
+        Cell contains interactive content.
+      </p>
+    </div>
+  </div>,
+  <div
+    data-focus-guard="true"
+    style="width:1px;height:0px;padding:0;overflow:hidden;position:fixed;top:1px;left:1px"
+    tabindex="-1"
+  />,
+]
+`;

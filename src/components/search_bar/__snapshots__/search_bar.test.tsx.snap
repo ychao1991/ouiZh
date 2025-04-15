@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar render - box 1`] = `
+<OuiFlexGroup
+  alignItems="center"
+  gutterSize="m"
+  wrap={true}
+>
+  <OuiFlexItem
+    className="ouiSearchBar__searchHolder"
+    grow={true}
+  >
+    <OuiSearchBox
+      aria-label="aria-label"
+      className="testClass1 testClass2"
+      data-test-subj="test subject string"
+      incremental={false}
+      isInvalid={false}
+      onSearch={[Function]}
+      placeholder="find something..."
+      query=""
+    />
+  </OuiFlexItem>
+</OuiFlexGroup>
+`;
+
+exports[`SearchBar render - no config, no query 1`] = `
+<OuiFlexGroup
+  alignItems="center"
+  gutterSize="m"
+  wrap={true}
+>
+  <OuiFlexItem
+    className="ouiSearchBar__searchHolder"
+    grow={true}
+  >
+    <OuiSearchBox
+      incremental={false}
+      isInvalid={false}
+      onSearch={[Function]}
+      placeholder="Search..."
+      query=""
+    />
+  </OuiFlexItem>
+</OuiFlexGroup>
+`;
+
+exports[`SearchBar render - provided query, filters 1`] = `
+<OuiFlexGroup
+  alignItems="center"
+  gutterSize="m"
+  wrap={true}
+>
+  <OuiFlexItem
+    className="ouiSearchBar__searchHolder"
+    grow={true}
+  >
+    <OuiSearchBox
+      incremental={false}
+      isInvalid={false}
+      onSearch={[Function]}
+      placeholder="Search..."
+      query="this is a query"
+    />
+  </OuiFlexItem>
+  <OuiFlexItem
+    className="ouiSearchBar__filtersHolder"
+    grow={false}
+  >
+    <OuiSearchFilters
+      filters={
+        Array [
+          Object {
+            "field": "open",
+            "name": "Open",
+            "type": "is",
+          },
+          Object {
+            "field": "tag",
+            "name": "Tag",
+            "options": [Function],
+            "type": "field_value_selection",
+          },
+        ]
+      }
+      onChange={[Function]}
+      query={
+        Query {
+          "ast": _AST {
+            "_clauses": Array [
+              Object {
+                "match": "must",
+                "type": "term",
+                "value": "this",
+              },
+              Object {
+                "match": "must",
+                "type": "term",
+                "value": "is",
+              },
+              Object {
+                "match": "must",
+                "type": "term",
+                "value": "a",
+              },
+              Object {
+                "match": "must",
+                "type": "term",
+                "value": "query",
+              },
+            ],
+            "_indexedClauses": Object {
+              "field": Object {},
+              "group": Array [],
+              "is": Object {},
+              "term": Array [
+                Object {
+                  "match": "must",
+                  "type": "term",
+                  "value": "this",
+                },
+                Object {
+                  "match": "must",
+                  "type": "term",
+                  "value": "is",
+                },
+                Object {
+                  "match": "must",
+                  "type": "term",
+                  "value": "a",
+                },
+                Object {
+                  "match": "must",
+                  "type": "term",
+                  "value": "query",
+                },
+              ],
+            },
+          },
+          "syntax": Object {
+            "parse": [Function],
+            "print": [Function],
+            "printClause": [Function],
+          },
+          "text": "this is a query",
+        }
+      }
+    />
+  </OuiFlexItem>
+</OuiFlexGroup>
+`;
+
+exports[`SearchBar render - tools 1`] = `
+<OuiFlexGroup
+  alignItems="center"
+  gutterSize="m"
+  wrap={true}
+>
+  <OuiFlexItem
+    grow={false}
+  >
+    <div>
+      Left
+    </div>
+  </OuiFlexItem>
+  <OuiFlexItem
+    className="ouiSearchBar__searchHolder"
+    grow={true}
+  >
+    <OuiSearchBox
+      incremental={false}
+      isInvalid={false}
+      onSearch={[Function]}
+      placeholder="Search..."
+      query=""
+    />
+  </OuiFlexItem>
+  <OuiFlexItem
+    grow={false}
+  >
+    <div>
+      Right
+    </div>
+  </OuiFlexItem>
+</OuiFlexGroup>
+`;

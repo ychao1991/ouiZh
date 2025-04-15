@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiNotificationEventMeta is rendered 1`] = `
+<div
+  class="ouiNotificationEventMeta"
+>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiBadge ouiBadge--hollow ouiBadge--iconLeft ouiNotificationEventMeta__badge"
+    >
+      <span
+        class="ouiBadge__content"
+      >
+        <span
+          class="ouiBadge__text"
+        >
+          Alert
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiNotificationEventMeta__time"
+    >
+      <span>
+        2 min ago
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`OuiNotificationEventMeta props badgeColor  is rendered 1`] = `
+<div
+  class="ouiNotificationEventMeta"
+>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiBadge ouiBadge--iconLeft ouiNotificationEventMeta__badge"
+      style="background-color:#6dccb1;color:#000"
+    >
+      <span
+        class="ouiBadge__content"
+      >
+        <span
+          class="ouiBadge__text"
+        >
+          Alert
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiNotificationEventMeta__time"
+    >
+      <span>
+        2 min ago
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`OuiNotificationEventMeta props contextMenuItems are rendered 1`] = `
+<div
+  class="ouiContextMenuPanel"
+  tabindex="-1"
+>
+  <div>
+    <div>
+      <button
+        class="ouiContextMenuItem"
+        type="button"
+      >
+        <span
+          class="ouiContextMenu__itemLayout"
+        >
+          <span
+            class="ouiContextMenuItem__text"
+          >
+            Mark as read
+          </span>
+        </span>
+      </button>
+      <button
+        class="ouiContextMenuItem"
+        type="button"
+      >
+        <span
+          class="ouiContextMenu__itemLayout"
+        >
+          <span
+            class="ouiContextMenuItem__text"
+          >
+            View messages like this
+          </span>
+        </span>
+      </button>
+      <button
+        class="ouiContextMenuItem"
+        type="button"
+      >
+        <span
+          class="ouiContextMenu__itemLayout"
+        >
+          <span
+            class="ouiContextMenuItem__text"
+          >
+            Don’t notify me about this
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OuiNotificationEventMeta props logoCloud  is rendered 1`] = `
+<div
+  class="ouiNotificationEventMeta"
+>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      aria-hidden="true"
+      class="ouiNotificationEventMeta__icon"
+      data-ouiicon-type="logoCloud"
+    />
+    <span
+      class="ouiBadge ouiBadge--hollow ouiBadge--iconLeft ouiNotificationEventMeta__badge"
+    >
+      <span
+        class="ouiBadge__content"
+      >
+        <span
+          class="ouiBadge__text"
+        >
+          Alert
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiNotificationEventMeta__time"
+    >
+      <span>
+        2 min ago
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`OuiNotificationEventMeta props severity is rendered 1`] = `
+<div
+  class="ouiNotificationEventMeta"
+>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiBadge ouiBadge--hollow ouiBadge--iconLeft ouiNotificationEventMeta__badge"
+    >
+      <span
+        class="ouiBadge__content"
+      >
+        <span
+          class="ouiBadge__text"
+        >
+          Alert: severity
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="ouiNotificationEventMeta__section"
+  >
+    <span
+      class="ouiNotificationEventMeta__time"
+    >
+      <span>
+        2 min ago
+      </span>
+    </span>
+  </div>
+</div>
+`;

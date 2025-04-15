@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiDroppable can be given ReactElement children 1`] = `
+<div
+  class="ouiDroppable ouiDroppable--noGrow"
+  data-rbd-droppable-context-id="0"
+  data-rbd-droppable-id="testDroppable"
+  data-test-subj="droppable"
+>
+  <div />
+  <div
+    class="ouiDroppable__placeholder"
+  />
+</div>
+`;
+
+exports[`OuiDroppable can be given multiple ReactElement children 1`] = `
+<div
+  class="ouiDroppable ouiDroppable--noGrow"
+  data-rbd-droppable-context-id="0"
+  data-rbd-droppable-id="testDroppable"
+  data-test-subj="droppable"
+>
+  <div />
+  <div />
+  <div />
+  <div
+    class="ouiDroppable__placeholder"
+  />
+</div>
+`;
+
+exports[`OuiDroppable is rendered 1`] = `
+<div
+  class="ouiDroppable ouiDroppable--noGrow"
+  data-rbd-droppable-context-id="0"
+  data-rbd-droppable-id="testDroppable"
+  data-test-subj="droppable"
+>
+  <div />
+  <div
+    class="ouiDroppable__placeholder"
+  />
+</div>
+`;

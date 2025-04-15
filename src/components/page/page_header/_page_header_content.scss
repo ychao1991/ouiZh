@@ -1,0 +1,26 @@
+/*!
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * The OpenSearch Contributors require contributions made to
+ * this file be licensed under the Apache-2.0 license or a
+ * compatible open source license.
+ *
+ * Modifications Copyright OpenSearch Contributors. See
+ * GitHub history for details.
+ */
+
+.ouiPageHeader .ouiPageHeaderContent {
+  width: 100%;
+}
+
+.ouiPageHeaderContent__titleIcon {
+  top: -$ouiSizeXS;
+  position: relative;
+  margin-right: $ouiSize;
+}
+
+@include ouiBreakpoint('m', 'l', 'xl') {
+  .ouiPageHeaderContent__rightSideItems {
+    flex-direction: row-reverse;
+  }
+}
