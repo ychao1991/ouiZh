@@ -1,31 +1,27 @@
 /*
+ * Copyright OpenSearch Contributors
  * SPDX-License-Identifier: Apache-2.0
- *
- * The OpenSearch Contributors require contributions made to
- * this file be licensed under the Apache-2.0 license or a
- * compatible open source license.
- *
- * Modifications Copyright OpenSearch Contributors. See
- * GitHub history for details.
  */
 
 /*
- * Licensed to Elasticsearch B.V. under one or more contributor
- * license agreements. See the NOTICE file distributed with
- * this work for additional information regarding copyright
- * ownership. Elasticsearch B.V. licenses this file to you under
- * the Apache License, Version 2.0 (the "License"); you may
- * not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * OpenSearch 贡献者要求对本文件的贡献遵循 Apache-2.0 许可或兼容的开源许可。
+ *
+ * 修改版权归 OpenSearch 贡献者所有。详情请查看 GitHub 历史记录。
+ */
+
+/*
+ * 本文件已获得 Elasticsearch B.V. 依据一个或多个贡献者许可协议授权。
+ * 有关版权归属的更多信息，请查看随本工作分发的 NOTICE 文件。
+ * Elasticsearch B.V. 依据 Apache 许可证 2.0 版（“许可证”）将本文件授权给您；
+ * 除非遵守许可证规定，否则您不得使用本文件。
+ * 您可以在以下网址获取许可证副本：
  *
  *    http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
+ * 除非适用法律要求或书面同意，否则依据许可证分发的软件按“原样”分发，
+ * 不附带任何形式的明示或暗示的保证和条件。请查看许可证了解具体的权限和限制规定。
  */
 
 import React, {
@@ -58,38 +54,74 @@ import { OuiScreenReaderOnly } from '../../accessibility';
 import { OuiSpacer } from '../../spacer';
 import { OuiRangeThumb } from '../../form/range/range_thumb';
 
+/**
+ * 色标接口，包含停止位置和颜色信息
+ */
 export interface ColorStop {
+  /** 停止位置 */
   stop: number;
+  /** 颜色值 */
   color: string;
 }
 
+/**
+ * OuiColorStopThumb 组件的属性接口
+ */
 interface OuiColorStopThumbProps extends CommonProps, ColorStop {
+  /** 自定义类名 */
   className?: string;
+  /** 色标变更时的回调函数 */
   onChange: (colorStop: ColorStop) => void;
+  /** 获取焦点时的回调函数 */
   onFocus?: () => void;
+  /** 移除色标时的回调函数 */
   onRemove?: () => void;
+  /** 全局最小值 */
   globalMin: number;
+  /** 全局最大值 */
   globalMax: number;
+  /** 局部最小值 */
   localMin: number;
+  /** 局部最大值 */
   localMax: number;
+  /** 自定义最小值 */
   min?: number;
+  /** 自定义最大值 */
   max?: number;
+  /** 是否为范围最小值 */
   isRangeMin?: boolean;
+  /** 是否为范围最大值 */
   isRangeMax?: boolean;
+  /** 父元素引用 */
   parentRef?: HTMLDivElement | null;
+  /** 颜色选择器模式 */
   colorPickerMode: OuiColorPickerProps['mode'];
+  /** 颜色选择器是否显示透明度通道 */
   colorPickerShowAlpha?: OuiColorPickerProps['showAlpha'];
+  /** 颜色选择器的色板 */
   colorPickerSwatches?: OuiColorPickerProps['swatches'];
+  /** 是否禁用组件 */
   disabled?: boolean;
+  /** 是否为只读模式 */
   readOnly?: boolean;
+  /** 弹出框是否打开 */
   isPopoverOpen: boolean;
+  /** 打开弹出框的函数 */
   openPopover: () => void;
+  /** 关闭弹出框的函数 */
   closePopover: () => void;
+  /** 数据索引 */
   'data-index'?: string;
+  /** 无障碍文本 */
   'aria-valuetext'?: string;
+  /** 数字输入框的属性 */
   valueInputProps?: Partial<OuiFieldNumberProps>;
 }
 
+/**
+ * OuiColorStopThumb 组件，用于显示和编辑色标
+ * @param props - 组件属性
+ */
 export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
   className,
   stop,
@@ -118,36 +150,46 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
   'aria-valuetext': ariaValueText,
   valueInputProps = {},
 }) => {
+  // 根据颜色和是否显示透明度计算背景颜色
   const background = useMemo(() => {
     const chromaColor = getChromaColor(color, colorPickerShowAlpha);
     return chromaColor ? chromaColor.css() : undefined;
   }, [color, colorPickerShowAlpha]);
+  // 记录是否获得焦点
   const [hasFocus, setHasFocus] = useState(isPopoverOpen);
+  // 记录颜色是否无效
   const [colorIsInvalid, setColorIsInvalid] = useState(
     isColorInvalid(color, colorPickerShowAlpha)
   );
+  // 记录停止位置是否无效
   const [stopIsInvalid, setStopIsInvalid] = useState(isStopInvalid(stop));
+  // 记录数字输入框的引用
   const [numberInputRef, setNumberInputRef] = useState<HTMLInputElement | null>(
     null
   );
+  // 记录弹出框的引用
   const popoverRef = useRef<OuiPopover>(null);
 
+  // 当弹出框打开或停止位置变化时，重新定位弹出框
   useEffect(() => {
     if (isPopoverOpen && popoverRef && popoverRef.current) {
       popoverRef.current.positionPopoverFixed();
     }
   }, [isPopoverOpen, stop]);
 
+  // 根据鼠标位置获取停止位置
   const getStopFromMouseLocationFn = (location: { x: number; y: number }) => {
-    // Guard against `null` ref in usage
+    // 防止使用时引用为 `null`
     return getStopFromMouseLocation(location, parentRef!, globalMin, globalMax);
   };
 
+  // 根据停止位置获取位置百分比
   const getPositionFromStopFn = (stop: ColorStop['stop']) => {
-    // Guard against `null` ref in usage
+    // 防止使用时引用为 `null`
     return getPositionFromStop(stop, parentRef!, globalMin, globalMax);
   };
 
+  // 处理移除色标事件
   const handleOnRemove = () => {
     if (onRemove) {
       closePopover();
@@ -155,6 +197,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     }
   };
 
+  // 处理获取焦点事件
   const handleFocus = () => {
     setHasFocus(true);
     if (onFocus) {
@@ -162,14 +205,18 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     }
   };
 
+  // 设置焦点状态为 true
   const setHasFocusTrue = () => setHasFocus(true);
+  // 设置焦点状态为 false
   const setHasFocusFalse = () => setHasFocus(false);
 
+  // 处理颜色变更事件
   const handleColorChange = (value: ColorStop['color']) => {
     setColorIsInvalid(isColorInvalid(value, colorPickerShowAlpha));
     onChange({ stop, color: value });
   };
 
+  // 处理停止位置变更事件
   const handleStopChange = (value: ColorStop['stop']) => {
     const willBeInvalid = value > localMax || value < localMin;
 
@@ -185,6 +232,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     onChange({ stop: value, color });
   };
 
+  // 处理数字输入框的变更事件
   const handleStopInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = parseFloat(e.target.value);
 
@@ -203,11 +251,12 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     onChange({ stop: value, color });
   };
 
+  // 处理指针位置变更事件
   const handlePointerChange = (
     location: { x: number; y: number },
     isFirstInteraction?: boolean
   ) => {
-    if (isFirstInteraction) return; // Prevents change on the initial MouseDown event
+    if (isFirstInteraction) return; // 防止在初始鼠标按下事件时触发变更
     if (parentRef == null) {
       return;
     }
@@ -215,6 +264,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     handleStopChange(newStop);
   };
 
+  // 处理键盘按下事件
   const handleKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
     switch (event.key) {
       case keys.ENTER:
@@ -236,10 +286,12 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     }
   };
 
+  // 使用鼠标移动钩子处理指针位置变更
   const [handleMouseDown, handleInteraction] = useMouseMove<HTMLButtonElement>(
     handlePointerChange
   );
 
+  // 处理鼠标按下事件
   const handleOnMouseDown = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (!readOnly) {
       handleMouseDown(e);
@@ -247,12 +299,14 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     openPopover();
   };
 
+  // 处理触摸交互事件
   const handleTouchInteraction = (e: React.TouchEvent<HTMLButtonElement>) => {
     if (!readOnly) {
       handleInteraction(e);
     }
   };
 
+  // 处理触摸开始事件
   const handleTouchStart = (e: React.TouchEvent<HTMLButtonElement>) => {
     handleTouchInteraction(e);
     if (!isPopoverOpen) {
@@ -260,6 +314,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
     }
   };
 
+  // 计算组件类名
   const classes = classNames(
     'ouiColorStopPopover',
     {
@@ -291,8 +346,8 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
             'ouiColorStopThumb.buttonTitle',
           ]}
           defaults={[
-            'Press the Enter key to modify this stop. Press Escape to focus the group',
-            'Click to edit, drag to reposition',
+            '按 Enter 键修改此色标。按 Esc 键聚焦到组',
+            '点击编辑，拖动重新定位',
           ]}>
           {([buttonAriaLabel, buttonTitle]: ReactChild[]) => {
             const ariaLabel = buttonAriaLabel as string;
@@ -331,7 +386,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
           <p aria-live="polite">
             <OuiI18n
               token="ouiColorStopThumb.screenReaderAnnouncement"
-              default="一个包含色标编辑表单的弹出框已打开。\n            向前按 Tab 键循环选择表单控件，或按 Esc 键关闭此弹出框。"
+              default="一个包含色标编辑表单的弹出框已打开。向前按 Tab 键循环选择表单控件，或按 Esc 键关闭此弹出框。"
             />
           </p>
         </OuiScreenReaderOnly>
@@ -342,7 +397,7 @@ export const OuiColorStopThumb: FunctionComponent<OuiColorStopThumbProps> = ({
                 'ouiColorStopThumb.stopLabel',
                 'ouiColorStopThumb.stopErrorMessage',
               ]}
-              defaults={['Stop value', 'Value is out of range']}>
+              defaults={['停止位置值', '值超出范围']}>
               {([stopLabel, stopErrorMessage]: React.ReactChild[]) => (
                 <OuiFormRow
                   label={stopLabel}

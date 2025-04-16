@@ -151,9 +151,7 @@ export const OuiPagination: FunctionComponent<Props> = ({
       default="上一页，第 {page} 页"
       values={{ page: activePage }}>
       {(previousPage: string) => (
-        <OuiI18n
-          token="ouiPagination.disabledPreviousPage"
-          default="上一页">
+        <OuiI18n token="ouiPagination.disabledPreviousPage" default="上一页">
           {(disabledPreviousPage: string) => (
             <OuiButtonIcon
               onClick={(e: MouseEvent) => safeClick(e, activePage - 1)}

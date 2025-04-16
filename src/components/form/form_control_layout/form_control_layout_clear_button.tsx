@@ -60,9 +60,7 @@ export const OuiFormControlLayoutClearButton: FunctionComponent<OuiFormControlLa
   );
 
   return (
-    <OuiI18n
-      token="ouiFormControlLayoutClearButton.label"
-      default="清除输入">
+    <OuiI18n token="ouiFormControlLayoutClearButton.label" default="清除输入">
       {(label: string) => (
         <button
           type="button"

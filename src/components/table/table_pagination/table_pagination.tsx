@@ -98,11 +98,8 @@ export class OuiTablePagination extends Component<
         iconSide="right"
         data-test-subj="tablePaginationPopoverButton"
         onClick={this.onButtonClick}>
-        <OuiI18n
-          token="ouiTablePagination.rowsPerPage"
-          default="每页行数"
-        />
-        : {itemsPerPage}
+        <OuiI18n token="ouiTablePagination.rowsPerPage" default="每页行数" />:{' '}
+        {itemsPerPage}
       </OuiButtonEmpty>
     );
 

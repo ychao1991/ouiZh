@@ -442,9 +442,7 @@ export class OuiControlBar extends Component<
     };
 
     const controlBar = (
-      <OuiI18n
-        token="ouiControlBar.screenReaderHeading"
-        default="页面级控件">
+      <OuiI18n token="ouiControlBar.screenReaderHeading" default="页面级控件">
         {(screenReaderHeading: string) => (
           // Though it would be better to use aria-labelledby than aria-label and not repeat the same string twice
           // A bug in voiceover won't list some landmarks in the rotor without an aria-label

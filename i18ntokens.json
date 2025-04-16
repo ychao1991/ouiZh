@@ -15,7 +15,7 @@
         "index": 7683
       }
     },
-    "filepath": "src/components/accordion/accordion.tsx"
+    "filepath": "src\\components\\accordion\\accordion.tsx"
   },
   {
     "token": "ouiBasicTable.tableCaptionWithPagination",
@@ -33,7 +33,7 @@
         "index": 17985
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.tableAutoCaptionWithPagination",
@@ -51,7 +51,7 @@
         "index": 18678
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.tableSimpleAutoCaptionWithPagination",
@@ -69,7 +69,7 @@
         "index": 19172
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.tableAutoCaptionWithoutPagination",
@@ -87,7 +87,7 @@
         "index": 19456
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.selectAllRows",
@@ -105,7 +105,7 @@
         "index": 20442
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.selectThisRow",
@@ -123,7 +123,7 @@
         "index": 32531
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiBasicTable.tablePagination",
@@ -141,7 +141,7 @@
         "index": 39139
       }
     },
-    "filepath": "src/components/basic_table/basic_table.tsx"
+    "filepath": "src\\components\\basic_table\\basic_table.tsx"
   },
   {
     "token": "ouiCollapsedItemActions.allActions",
@@ -159,7 +159,7 @@
         "index": 5730
       }
     },
-    "filepath": "src/components/basic_table/collapsed_item_actions.tsx"
+    "filepath": "src\\components\\basic_table\\collapsed_item_actions.tsx"
   },
   {
     "token": "ouiCollapsedItemActions.allActions",
@@ -177,7 +177,7 @@
         "index": 6267
       }
     },
-    "filepath": "src/components/basic_table/collapsed_item_actions.tsx"
+    "filepath": "src\\components\\basic_table\\collapsed_item_actions.tsx"
   },
   {
     "token": "ouiBottomBar.screenReaderHeading",
@@ -195,7 +195,7 @@
         "index": 5724
       }
     },
-    "filepath": "src/components/bottom_bar/bottom_bar.tsx"
+    "filepath": "src\\components\\bottom_bar\\bottom_bar.tsx"
   },
   {
     "token": "ouiBottomBar.customScreenReaderAnnouncement",
@@ -213,7 +213,7 @@
         "index": 6829
       }
     },
-    "filepath": "src/components/bottom_bar/bottom_bar.tsx"
+    "filepath": "src\\components\\bottom_bar\\bottom_bar.tsx"
   },
   {
     "token": "ouiBottomBar.screenReaderAnnouncement",
@@ -231,7 +231,7 @@
         "index": 6997
       }
     },
-    "filepath": "src/components/bottom_bar/bottom_bar.tsx"
+    "filepath": "src\\components\\bottom_bar\\bottom_bar.tsx"
   },
   {
     "token": "ouiBreadcrumbs.collapsedBadge.ariaLabel",
@@ -249,7 +249,7 @@
         "index": 4490
       }
     },
-    "filepath": "src/components/breadcrumbs/breadcrumbs.tsx"
+    "filepath": "src\\components\\breadcrumbs\\breadcrumbs.tsx"
   },
   {
     "token": "ouiCardSelect.selected",
@@ -267,7 +267,7 @@
         "index": 2451
       }
     },
-    "filepath": "src/components/card/card_select.tsx"
+    "filepath": "src\\components\\card\\card_select.tsx"
   },
   {
     "token": "ouiCardSelect.unavailable",
@@ -285,7 +285,7 @@
         "index": 2550
       }
     },
-    "filepath": "src/components/card/card_select.tsx"
+    "filepath": "src\\components\\card\\card_select.tsx"
   },
   {
     "token": "ouiCardSelect.select",
@@ -303,7 +303,7 @@
         "index": 2627
       }
     },
-    "filepath": "src/components/card/card_select.tsx"
+    "filepath": "src\\components\\card\\card_select.tsx"
   },
   {
     "token": "ouiCodeEditor.startInteracting",
@@ -321,7 +321,7 @@
         "index": 7375
       }
     },
-    "filepath": "src/components/code_editor/code_editor.tsx"
+    "filepath": "src\\components\\code_editor\\code_editor.tsx"
   },
   {
     "token": "ouiCodeEditor.startEditing",
@@ -339,7 +339,7 @@
         "index": 7515
       }
     },
-    "filepath": "src/components/code_editor/code_editor.tsx"
+    "filepath": "src\\components\\code_editor\\code_editor.tsx"
   },
   {
     "token": "ouiCodeEditor.stopInteracting",
@@ -357,7 +357,7 @@
         "index": 7735
       }
     },
-    "filepath": "src/components/code_editor/code_editor.tsx"
+    "filepath": "src\\components\\code_editor\\code_editor.tsx"
   },
   {
     "token": "ouiCodeEditor.stopEditing",
@@ -375,7 +375,7 @@
         "index": 7879
       }
     },
-    "filepath": "src/components/code_editor/code_editor.tsx"
+    "filepath": "src\\components\\code_editor\\code_editor.tsx"
   },
   {
     "token": "ouiCodeBlock.copyButton",
@@ -393,7 +393,7 @@
         "index": 9465
       }
     },
-    "filepath": "src/components/code/_code_block.tsx"
+    "filepath": "src\\components\\code\\_code_block.tsx"
   },
   {
     "token": "ouiCodeBlock.fullscreenCollapse",
@@ -411,7 +411,7 @@
         "index": 10208
       }
     },
-    "filepath": "src/components/code/_code_block.tsx"
+    "filepath": "src\\components\\code\\_code_block.tsx"
   },
   {
     "token": "ouiCodeBlock.fullscreenExpand",
@@ -429,61 +429,61 @@
         "index": 10208
       }
     },
-    "filepath": "src/components/code/_code_block.tsx"
+    "filepath": "src\\components\\code\\_code_block.tsx"
   },
   {
     "token": "ouiColorPicker.colorLabel",
-    "defString": "Color value",
+    "defString": "颜色值",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 464,
         "column": 4,
-        "index": 13378
+        "index": 12227
       },
       "end": {
         "line": 470,
-        "column": 71,
-        "index": 13602
+        "column": 41,
+        "index": 12421
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.colorErrorMessage",
-    "defString": "Invalid color value",
+    "defString": "无效的颜色值",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 464,
         "column": 4,
-        "index": 13378
+        "index": 12227
       },
       "end": {
         "line": 470,
-        "column": 71,
-        "index": 13602
+        "column": 41,
+        "index": 12421
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.transparent",
-    "defString": "Transparent",
+    "defString": "透明",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 464,
         "column": 4,
-        "index": 13378
+        "index": 12227
       },
       "end": {
         "line": 470,
-        "column": 71,
-        "index": 13602
+        "column": 41,
+        "index": 12421
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.swatchAriaLabel",
@@ -493,15 +493,15 @@
       "start": {
         "line": 535,
         "column": 14,
-        "index": 15754
+        "index": 14573
       },
       "end": {
         "line": 538,
         "column": 43,
-        "index": 15897
+        "index": 14716
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.alphaLabel",
@@ -511,177 +511,177 @@
       "start": {
         "line": 563,
         "column": 10,
-        "index": 16650
+        "index": 15469
       },
       "end": {
         "line": 565,
         "column": 38,
-        "index": 16743
+        "index": 15562
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.openLabel",
-    "defString": "Press the escape key to close the popover",
+    "defString": "按转义键关闭弹出框",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 622,
         "column": 10,
-        "index": 18278
+        "index": 17056
       },
       "end": {
         "line": 632,
         "column": 15,
-        "index": 18659
+        "index": 17351
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.closeLabel",
-    "defString": "Press the down key to open a popover containing color options",
+    "defString": "按向下键打开包含颜色选项的弹出框",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 622,
         "column": 10,
-        "index": 18278
+        "index": 17056
       },
       "end": {
         "line": 632,
         "column": 15,
-        "index": 18659
+        "index": 17351
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.transparent",
-    "defString": "Transparent",
+    "defString": "透明",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 622,
         "column": 10,
-        "index": 18278
+        "index": 17056
       },
       "end": {
         "line": 632,
         "column": 15,
-        "index": 18659
+        "index": 17351
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorPicker.screenReaderAnnouncement",
-    "defString": "一个包含一系列可选颜色的弹出框已打开。\\n                向前按 Tab 键循环选择颜色选项，或按 Esc 键关闭此弹出框。",
+    "defString": "一个包含一系列可选颜色的弹出框已打开。向前按 Tab 键循环选择颜色选项，或按 Esc 键关闭此弹出框。",
     "highlighting": "string",
     "loc": {
       "start": {
         "line": 684,
         "column": 14,
-        "index": 20527
+        "index": 19219
       },
       "end": {
         "line": 687,
         "column": 16,
-        "index": 20713
+        "index": 19387
       }
     },
-    "filepath": "src/components/color_picker/color_picker.tsx"
+    "filepath": "src\\components\\color_picker\\color_picker.tsx"
   },
   {
     "token": "ouiColorStopThumb.buttonAriaLabel",
-    "defString": "Press the Enter key to modify this stop. Press Escape to focus the group",
+    "defString": "按 Enter 键修改此色标。按 Esc 键聚焦到组",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 288,
+        "line": 343,
         "column": 8,
-        "index": 7884
+        "index": 8237
       },
       "end": {
-        "line": 296,
+        "line": 351,
         "column": 13,
-        "index": 8192
+        "index": 8477
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStopThumb.buttonTitle",
-    "defString": "Click to edit, drag to reposition",
+    "defString": "点击编辑，拖动重新定位",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 288,
+        "line": 343,
         "column": 8,
-        "index": 7884
+        "index": 8237
       },
       "end": {
-        "line": 296,
+        "line": 351,
         "column": 13,
-        "index": 8192
+        "index": 8477
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStopThumb.screenReaderAnnouncement",
-    "defString": "一个包含色标编辑表单的弹出框已打开。\\n            向前按 Tab 键循环选择表单控件，或按 Esc 键关闭此弹出框。",
+    "defString": "一个包含色标编辑表单的弹出框已打开。向前按 Tab 键循环选择表单控件，或按 Esc 键关闭此弹出框。",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 332,
+        "line": 387,
         "column": 12,
-        "index": 9480
+        "index": 9765
       },
       "end": {
-        "line": 335,
+        "line": 390,
         "column": 14,
-        "index": 9658
+        "index": 9929
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStopThumb.stopLabel",
-    "defString": "Stop value",
+    "defString": "停止位置值",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 340,
+        "line": 395,
         "column": 12,
-        "index": 9798
+        "index": 10069
       },
       "end": {
-        "line": 345,
-        "column": 65,
-        "index": 10014
+        "line": 400,
+        "column": 44,
+        "index": 10264
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStopThumb.stopErrorMessage",
-    "defString": "Value is out of range",
+    "defString": "值超出范围",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 340,
+        "line": 395,
         "column": 12,
-        "index": 9798
+        "index": 10069
       },
       "end": {
-        "line": 345,
-        "column": 65,
-        "index": 10014
+        "line": 400,
+        "column": 44,
+        "index": 10264
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStopThumb.removeLabel",
@@ -689,17 +689,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 370,
+        "line": 425,
         "column": 16,
-        "index": 11089
+        "index": 11339
       },
       "end": {
-        "line": 372,
+        "line": 427,
         "column": 35,
-        "index": 11189
+        "index": 11439
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stop_thumb.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stop_thumb.tsx"
   },
   {
     "token": "ouiColorStops.screenReaderAnnouncement",
@@ -717,7 +717,7 @@
         "index": 16130
       }
     },
-    "filepath": "src/components/color_picker/color_stops/color_stops.tsx"
+    "filepath": "src\\components\\color_picker\\color_stops\\color_stops.tsx"
   },
   {
     "token": "ouiHue.label",
@@ -735,7 +735,7 @@
         "index": 2064
       }
     },
-    "filepath": "src/components/color_picker/hue.tsx"
+    "filepath": "src\\components\\color_picker\\hue.tsx"
   },
   {
     "token": "ouiSaturation.roleDescription",
@@ -753,7 +753,7 @@
         "index": 5162
       }
     },
-    "filepath": "src/components/color_picker/saturation.tsx"
+    "filepath": "src\\components\\color_picker\\saturation.tsx"
   },
   {
     "token": "ouiSaturation.screenReaderAnnouncement",
@@ -771,7 +771,7 @@
         "index": 6397
       }
     },
-    "filepath": "src/components/color_picker/saturation.tsx"
+    "filepath": "src\\components\\color_picker\\saturation.tsx"
   },
   {
     "token": "ouiComboBoxPill.removeSelection",
@@ -789,7 +789,7 @@
         "index": 2718
       }
     },
-    "filepath": "src/components/combo_box/combo_box_input/combo_box_pill.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_input\\combo_box_pill.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.loadingOptions",
@@ -807,7 +807,7 @@
         "index": 10357
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.delimiterMessage",
@@ -825,7 +825,7 @@
         "index": 11011
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.alreadyAdded",
@@ -843,7 +843,7 @@
         "index": 11663
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.createCustomOption",
@@ -861,7 +861,7 @@
         "index": 12940
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.noMatchingOptions",
@@ -879,7 +879,7 @@
         "index": 13347
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.noAvailableOptions",
@@ -897,7 +897,7 @@
         "index": 13579
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiComboBoxOptionsList.allOptionsSelected",
@@ -915,7 +915,7 @@
         "index": 13809
       }
     },
-    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+    "filepath": "src\\components\\combo_box\\combo_box_options_list\\combo_box_options_list.tsx"
   },
   {
     "token": "ouiControlBar.screenReaderHeading",
@@ -933,7 +933,7 @@
         "index": 11290
       }
     },
-    "filepath": "src/components/control_bar/control_bar.tsx"
+    "filepath": "src\\components\\control_bar\\control_bar.tsx"
   },
   {
     "token": "ouiControlBar.customScreenReaderAnnouncement",
@@ -951,7 +951,7 @@
         "index": 12708
       }
     },
-    "filepath": "src/components/control_bar/control_bar.tsx"
+    "filepath": "src\\components\\control_bar\\control_bar.tsx"
   },
   {
     "token": "ouiControlBar.screenReaderAnnouncement",
@@ -969,7 +969,7 @@
         "index": 12877
       }
     },
-    "filepath": "src/components/control_bar/control_bar.tsx"
+    "filepath": "src\\components\\control_bar\\control_bar.tsx"
   },
   {
     "token": "ouiColumnActions.hideColumn",
@@ -977,17 +977,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 129,
-        "column": 8,
-        "index": 3755
+        "line": 128,
+        "column": 13,
+        "index": 3745
       },
       "end": {
-        "line": 129,
-        "column": 69,
-        "index": 3816
+        "line": 128,
+        "column": 74,
+        "index": 3806
       }
     },
-    "filepath": "src/components/datagrid/column_actions.tsx"
+    "filepath": "src\\components\\datagrid\\column_actions.tsx"
   },
   {
     "token": "ouiColumnActions.sort",
@@ -995,17 +995,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 153,
+        "line": 151,
         "column": 8,
-        "index": 4516
+        "index": 4498
       },
       "end": {
-        "line": 157,
+        "line": 155,
         "column": 10,
-        "index": 4658
+        "index": 4640
       }
     },
-    "filepath": "src/components/datagrid/column_actions.tsx"
+    "filepath": "src\\components\\datagrid\\column_actions.tsx"
   },
   {
     "token": "ouiColumnActions.sort",
@@ -1013,17 +1013,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 182,
+        "line": 180,
         "column": 8,
-        "index": 5376
+        "index": 5358
       },
       "end": {
-        "line": 186,
+        "line": 184,
         "column": 10,
-        "index": 5518
+        "index": 5500
       }
     },
-    "filepath": "src/components/datagrid/column_actions.tsx"
+    "filepath": "src\\components\\datagrid\\column_actions.tsx"
   },
   {
     "token": "ouiColumnActions.moveLeft",
@@ -1031,17 +1031,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 207,
+        "line": 205,
         "column": 13,
-        "index": 6124
+        "index": 6106
       },
       "end": {
-        "line": 207,
+        "line": 205,
         "column": 73,
-        "index": 6184
+        "index": 6166
       }
     },
-    "filepath": "src/components/datagrid/column_actions.tsx"
+    "filepath": "src\\components\\datagrid\\column_actions.tsx"
   },
   {
     "token": "ouiColumnActions.moveRight",
@@ -1049,17 +1049,17 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 224,
-        "column": 8,
-        "index": 6619
+        "line": 221,
+        "column": 13,
+        "index": 6591
       },
       "end": {
-        "line": 224,
-        "column": 69,
-        "index": 6680
+        "line": 221,
+        "column": 74,
+        "index": 6652
       }
     },
-    "filepath": "src/components/datagrid/column_actions.tsx"
+    "filepath": "src\\components\\datagrid\\column_actions.tsx"
   },
   {
     "token": "ouiColumnSelector.button",
@@ -1077,7 +1077,7 @@
         "index": 4572
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.buttonActiveSingular",
@@ -1095,7 +1095,7 @@
         "index": 4800
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.buttonActivePlural",
@@ -1113,7 +1113,7 @@
         "index": 5032
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.search",
@@ -1131,7 +1131,7 @@
         "index": 5947
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.searchcolumns",
@@ -1149,7 +1149,7 @@
         "index": 5947
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.selectAll",
@@ -1167,7 +1167,7 @@
         "index": 9884
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSelector.hideAll",
@@ -1185,7 +1185,7 @@
         "index": 10200
       }
     },
-    "filepath": "src/components/datagrid/column_selector.tsx"
+    "filepath": "src\\components\\datagrid\\column_selector.tsx"
   },
   {
     "token": "ouiColumnSortingDraggable.defaultSortAsc",
@@ -1203,7 +1203,7 @@
         "index": 2099
       }
     },
-    "filepath": "src/components/datagrid/column_sorting_draggable.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting_draggable.tsx"
   },
   {
     "token": "ouiColumnSortingDraggable.defaultSortDesc",
@@ -1221,7 +1221,7 @@
         "index": 2218
       }
     },
-    "filepath": "src/components/datagrid/column_sorting_draggable.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting_draggable.tsx"
   },
   {
     "token": "ouiColumnSortingDraggable.activeSortLabel",
@@ -1239,7 +1239,7 @@
         "index": 3586
       }
     },
-    "filepath": "src/components/datagrid/column_sorting_draggable.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting_draggable.tsx"
   },
   {
     "token": "ouiColumnSortingDraggable.removeSortLabel",
@@ -1257,7 +1257,7 @@
         "index": 4187
       }
     },
-    "filepath": "src/components/datagrid/column_sorting_draggable.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting_draggable.tsx"
   },
   {
     "token": "ouiColumnSortingDraggable.toggleLegend",
@@ -1275,11 +1275,11 @@
         "index": 5598
       }
     },
-    "filepath": "src/components/datagrid/column_sorting_draggable.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting_draggable.tsx"
   },
   {
     "token": "ouiColumnSorting.button",
-    "defString": "Sort fields",
+    "defString": "排序字段",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1289,15 +1289,15 @@
       },
       "end": {
         "line": 160,
-        "column": 54,
-        "index": 5038
+        "column": 39,
+        "index": 5023
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiColumnSorting.buttonActive",
-    "defString": "fields sorted",
+    "defString": "已排序字段",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1307,11 +1307,11 @@
       },
       "end": {
         "line": 160,
-        "column": 54,
-        "index": 5038
+        "column": 39,
+        "index": 5023
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiColumnSorting.emptySorting",
@@ -1321,15 +1321,15 @@
       "start": {
         "line": 205,
         "column": 12,
-        "index": 6582
+        "index": 6567
       },
       "end": {
         "line": 208,
         "column": 14,
-        "index": 6691
+        "index": 6676
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiColumnSorting.pickFields",
@@ -1339,15 +1339,15 @@
       "start": {
         "line": 235,
         "column": 22,
-        "index": 7744
+        "index": 7729
       },
       "end": {
         "line": 238,
         "column": 24,
-        "index": 7880
+        "index": 7865
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiColumnSorting.sortFieldAriaLabel",
@@ -1357,15 +1357,15 @@
       "start": {
         "line": 241,
         "column": 18,
-        "index": 7958
+        "index": 7943
       },
       "end": {
         "line": 243,
         "column": 40,
-        "index": 8071
+        "index": 8056
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiColumnSorting.clearAll",
@@ -1375,15 +1375,15 @@
       "start": {
         "line": 318,
         "column": 18,
-        "index": 11758
+        "index": 11743
       },
       "end": {
         "line": 321,
         "column": 20,
-        "index": 11876
+        "index": 11861
       }
     },
-    "filepath": "src/components/datagrid/column_sorting.tsx"
+    "filepath": "src\\components\\datagrid\\column_sorting.tsx"
   },
   {
     "token": "ouiDataGridCellButtons.expandButtonTitle",
@@ -1401,11 +1401,11 @@
         "index": 2138
       }
     },
-    "filepath": "src/components/datagrid/data_grid_cell_buttons.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_cell_buttons.tsx"
   },
   {
     "token": "ouiDataGridCell.row",
-    "defString": "Row",
+    "defString": "行",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1415,15 +1415,15 @@
       },
       "end": {
         "line": 153,
-        "column": 39,
-        "index": 5273
+        "column": 32,
+        "index": 5266
       }
     },
-    "filepath": "src/components/datagrid/data_grid_cell.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_cell.tsx"
   },
   {
     "token": "ouiDataGridCell.column",
-    "defString": "Column",
+    "defString": "列",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1433,11 +1433,11 @@
       },
       "end": {
         "line": 153,
-        "column": 39,
-        "index": 5273
+        "column": 32,
+        "index": 5266
       }
     },
-    "filepath": "src/components/datagrid/data_grid_cell.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_cell.tsx"
   },
   {
     "token": "ouiDataGridHeaderCell.headerActions",
@@ -1455,7 +1455,7 @@
         "index": 2961
       }
     },
-    "filepath": "src/components/datagrid/data_grid_header_cell.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_header_cell.tsx"
   },
   {
     "token": "ouiDataGridSchema.booleanSortTextAsc",
@@ -1473,7 +1473,7 @@
         "index": 3528
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.booleanSortTextDesc",
@@ -1491,7 +1491,7 @@
         "index": 3655
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.currencySortTextAsc",
@@ -1509,7 +1509,7 @@
         "index": 4833
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.currencySortTextDesc",
@@ -1527,7 +1527,7 @@
         "index": 4961
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.dateSortTextAsc",
@@ -1545,7 +1545,7 @@
         "index": 5982
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.dateSortTextDesc",
@@ -1563,7 +1563,7 @@
         "index": 6084
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.numberSortTextAsc",
@@ -1581,7 +1581,7 @@
         "index": 7250
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.numberSortTextDesc",
@@ -1599,7 +1599,7 @@
         "index": 7376
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.jsonSortTextAsc",
@@ -1617,7 +1617,7 @@
         "index": 8151
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGridSchema.jsonSortTextDesc",
@@ -1635,7 +1635,7 @@
         "index": 8275
       }
     },
-    "filepath": "src/components/datagrid/data_grid_schema.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid_schema.tsx"
   },
   {
     "token": "ouiDataGrid.ariaLabelGridPagination",
@@ -1653,7 +1653,7 @@
         "index": 10323
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.ariaLabelledByGridPagination",
@@ -1671,11 +1671,11 @@
         "index": 10498
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.fullScreenButton",
-    "defString": "Full screen",
+    "defString": "全屏",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1685,15 +1685,15 @@
       },
       "end": {
         "line": 1009,
-        "column": 53,
-        "index": 33366
+        "column": 32,
+        "index": 33345
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.fullScreenButtonActive",
-    "defString": "Exit full screen",
+    "defString": "退出全屏",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1703,11 +1703,11 @@
       },
       "end": {
         "line": 1009,
-        "column": 53,
-        "index": 33366
+        "column": 32,
+        "index": 33345
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.ariaLabel",
@@ -1717,15 +1717,15 @@
       "start": {
         "line": 1045,
         "column": 20,
-        "index": 34411
+        "index": 34390
       },
       "end": {
         "line": 1055,
         "column": 3,
-        "index": 34698
+        "index": 34677
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.ariaLabelledBy",
@@ -1735,15 +1735,15 @@
       "start": {
         "line": 1057,
         "column": 25,
-        "index": 34726
+        "index": 34705
       },
       "end": {
         "line": 1066,
         "column": 3,
-        "index": 34976
+        "index": 34955
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiDataGrid.screenReaderNotice",
@@ -1753,15 +1753,15 @@
       "start": {
         "line": 1185,
         "column": 18,
-        "index": 40090
+        "index": 40069
       },
       "end": {
         "line": 1188,
         "column": 20,
-        "index": 40220
+        "index": 40199
       }
     },
-    "filepath": "src/components/datagrid/data_grid.tsx"
+    "filepath": "src\\components\\datagrid\\data_grid.tsx"
   },
   {
     "token": "ouiStyleSelector.buttonText",
@@ -1769,93 +1769,93 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 103,
+        "line": 99,
         "column": 10,
-        "index": 3194
+        "index": 2507
       },
       "end": {
-        "line": 103,
+        "line": 99,
         "column": 70,
-        "index": 3254
+        "index": 2567
       }
     },
-    "filepath": "src/components/datagrid/style_selector.tsx"
+    "filepath": "src\\components\\datagrid\\style_selector.tsx"
   },
   {
     "token": "ouiStyleSelector.buttonLegend",
-    "defString": "Select the display density for the data grid",
+    "defString": "选择数据网格的显示密度",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 106,
+        "line": 102,
         "column": 6,
-        "index": 3296
+        "index": 2609
       },
       "end": {
-        "line": 118,
+        "line": 114,
         "column": 11,
-        "index": 3682
+        "index": 2929
       }
     },
-    "filepath": "src/components/datagrid/style_selector.tsx"
+    "filepath": "src\\components\\datagrid\\style_selector.tsx"
   },
   {
     "token": "ouiStyleSelector.labelExpanded",
-    "defString": "Expanded density",
+    "defString": "展开密度",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 106,
+        "line": 102,
         "column": 6,
-        "index": 3296
+        "index": 2609
       },
       "end": {
-        "line": 118,
+        "line": 114,
         "column": 11,
-        "index": 3682
+        "index": 2929
       }
     },
-    "filepath": "src/components/datagrid/style_selector.tsx"
+    "filepath": "src\\components\\datagrid\\style_selector.tsx"
   },
   {
     "token": "ouiStyleSelector.labelNormal",
-    "defString": "Normal density",
+    "defString": "正常密度",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 106,
+        "line": 102,
         "column": 6,
-        "index": 3296
+        "index": 2609
       },
       "end": {
-        "line": 118,
+        "line": 114,
         "column": 11,
-        "index": 3682
+        "index": 2929
       }
     },
-    "filepath": "src/components/datagrid/style_selector.tsx"
+    "filepath": "src\\components\\datagrid\\style_selector.tsx"
   },
   {
     "token": "ouiStyleSelector.labelCompact",
-    "defString": "Compact density",
+    "defString": "紧凑密度",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 106,
+        "line": 102,
         "column": 6,
-        "index": 3296
+        "index": 2609
       },
       "end": {
-        "line": 118,
+        "line": 114,
         "column": 11,
-        "index": 3682
+        "index": 2929
       }
     },
-    "filepath": "src/components/datagrid/style_selector.tsx"
+    "filepath": "src\\components\\datagrid\\style_selector.tsx"
   },
   {
     "token": "ouiRelativeTab.numberInputError",
-    "defString": "Must be >= 0",
+    "defString": "必须大于或等于 0",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1865,15 +1865,15 @@
       },
       "end": {
         "line": 151,
-        "column": 62,
-        "index": 4516
+        "column": 49,
+        "index": 4503
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiRelativeTab.numberInputLabel",
-    "defString": "Time span amount",
+    "defString": "时间跨度数值",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -1883,11 +1883,11 @@
       },
       "end": {
         "line": 151,
-        "column": 62,
-        "index": 4516
+        "column": 49,
+        "index": 4503
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiRelativeTab.unitInputLabel",
@@ -1897,15 +1897,15 @@
       "start": {
         "line": 170,
         "column": 12,
-        "index": 5264
+        "index": 5251
       },
       "end": {
         "line": 172,
         "column": 31,
-        "index": 5356
+        "index": 5343
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiRelativeTab.roundingLabel",
@@ -1915,15 +1915,15 @@
       "start": {
         "line": 189,
         "column": 8,
-        "index": 5895
+        "index": 5882
       },
       "end": {
         "line": 192,
         "column": 75,
-        "index": 6059
+        "index": 6046
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiRelativeTab.relativeDate",
@@ -1933,15 +1933,15 @@
       "start": {
         "line": 210,
         "column": 14,
-        "index": 6550
+        "index": 6537
       },
       "end": {
         "line": 214,
         "column": 16,
-        "index": 6739
+        "index": 6726
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiRelativeTab.fullDescription",
@@ -1951,15 +1951,15 @@
       "start": {
         "line": 220,
         "column": 12,
-        "index": 6889
+        "index": 6876
       },
       "end": {
         "line": 224,
         "column": 14,
-        "index": 7043
+        "index": 7030
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/date_popover/relative_tab.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\date_popover\\relative_tab.tsx"
   },
   {
     "token": "ouiCommonlyUsedTimeRanges.legend",
@@ -1977,7 +1977,7 @@
         "index": 2568
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/commonly_used_time_ranges.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\commonly_used_time_ranges.tsx"
   },
   {
     "token": "ouiQuickSelect.legendText",
@@ -1995,7 +1995,7 @@
         "index": 5780
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.quickSelectTitle",
@@ -2013,7 +2013,7 @@
         "index": 6499
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.previousLabel",
@@ -2031,7 +2031,7 @@
         "index": 7006
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.nextLabel",
@@ -2049,7 +2049,7 @@
         "index": 7586
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.tenseLabel",
@@ -2067,7 +2067,7 @@
         "index": 8260
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.valueLabel",
@@ -2085,7 +2085,7 @@
         "index": 8829
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.unitLabel",
@@ -2103,7 +2103,7 @@
         "index": 9358
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.applyButton",
@@ -2121,7 +2121,7 @@
         "index": 10195
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiQuickSelect.fullDescription",
@@ -2139,7 +2139,7 @@
         "index": 10651
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/quick_select.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\quick_select.tsx"
   },
   {
     "token": "ouiRecentlyUsed.legend",
@@ -2157,7 +2157,7 @@
         "index": 2566
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/recently_used.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\recently_used.tsx"
   },
   {
     "token": "ouiRefreshInterval.legend",
@@ -2175,7 +2175,7 @@
         "index": 5749
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/refresh_interval.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\refresh_interval.tsx"
   },
   {
     "token": "ouiRefreshInterval.start",
@@ -2193,7 +2193,7 @@
         "index": 7271
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/refresh_interval.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\refresh_interval.tsx"
   },
   {
     "token": "ouiRefreshInterval.stop",
@@ -2211,7 +2211,7 @@
         "index": 7364
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/refresh_interval.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\refresh_interval.tsx"
   },
   {
     "token": "ouiRefreshInterval.fullDescription",
@@ -2229,7 +2229,7 @@
         "index": 7783
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/quick_select_popover/refresh_interval.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\quick_select_popover\\refresh_interval.tsx"
   },
   {
     "token": "ouiSuperDatePicker.showDatesButtonLabel",
@@ -2247,7 +2247,7 @@
         "index": 11605
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_date_picker.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_date_picker.tsx"
   },
   {
     "token": "ouiSuperUpdateButton.refreshButtonLabel",
@@ -2265,7 +2265,7 @@
         "index": 3418
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_update_button.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_update_button.tsx"
   },
   {
     "token": "ouiSuperUpdateButton.updatingButtonLabel",
@@ -2283,7 +2283,7 @@
         "index": 3606
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_update_button.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_update_button.tsx"
   },
   {
     "token": "ouiSuperUpdateButton.updateButtonLabel",
@@ -2301,7 +2301,7 @@
         "index": 3726
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_update_button.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_update_button.tsx"
   },
   {
     "token": "ouiSuperUpdateButton.cannotUpdateTooltip",
@@ -2319,7 +2319,7 @@
         "index": 3925
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_update_button.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_update_button.tsx"
   },
   {
     "token": "ouiSuperUpdateButton.clickToApplyTooltip",
@@ -2337,7 +2337,7 @@
         "index": 4115
       }
     },
-    "filepath": "src/components/date_picker/super_date_picker/super_update_button.tsx"
+    "filepath": "src\\components\\date_picker\\super_date_picker\\super_update_button.tsx"
   },
   {
     "token": "ouiFilterButton.filterBadge",
@@ -2355,7 +2355,7 @@
         "index": 4077
       }
     },
-    "filepath": "src/components/filter_group/filter_button.tsx"
+    "filepath": "src\\components\\filter_group\\filter_button.tsx"
   },
   {
     "token": "ouiFlyout.closeAriaLabel",
@@ -2373,7 +2373,7 @@
         "index": 10800
       }
     },
-    "filepath": "src/components/flyout/flyout.tsx"
+    "filepath": "src\\components\\flyout\\flyout.tsx"
   },
   {
     "token": "ouiFieldPassword.showPassword",
@@ -2391,7 +2391,7 @@
         "index": 3437
       }
     },
-    "filepath": "src/components/form/field_password/field_password.tsx"
+    "filepath": "src\\components\\form\\field_password\\field_password.tsx"
   },
   {
     "token": "ouiFieldPassword.maskPassword",
@@ -2409,11 +2409,11 @@
         "index": 3437
       }
     },
-    "filepath": "src/components/form/field_password/field_password.tsx"
+    "filepath": "src\\components\\form\\field_password\\field_password.tsx"
   },
   {
     "token": "ouiFilePicker.clearSelectedFiles",
-    "defString": "Clear selected files",
+    "defString": "清除所选文件",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2423,15 +2423,15 @@
       },
       "end": {
         "line": 144,
-        "column": 62,
-        "index": 4091
+        "column": 40,
+        "index": 4069
       }
     },
-    "filepath": "src/components/form/file_picker/file_picker.tsx"
+    "filepath": "src\\components\\form\\file_picker\\file_picker.tsx"
   },
   {
     "token": "ouiFilePicker.filesSelected",
-    "defString": "files selected",
+    "defString": "个文件已选中",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2441,11 +2441,11 @@
       },
       "end": {
         "line": 144,
-        "column": 62,
-        "index": 4091
+        "column": 40,
+        "index": 4069
       }
     },
-    "filepath": "src/components/form/file_picker/file_picker.tsx"
+    "filepath": "src\\components\\form\\file_picker\\file_picker.tsx"
   },
   {
     "token": "ouiFilePicker.removeSelected",
@@ -2455,15 +2455,15 @@
       "start": {
         "line": 209,
         "column": 18,
-        "index": 6273
+        "index": 6251
       },
       "end": {
         "line": 212,
         "column": 20,
-        "index": 6392
+        "index": 6370
       }
     },
-    "filepath": "src/components/form/file_picker/file_picker.tsx"
+    "filepath": "src\\components\\form\\file_picker\\file_picker.tsx"
   },
   {
     "token": "ouiFormControlLayoutClearButton.label",
@@ -2481,7 +2481,7 @@
         "index": 2004
       }
     },
-    "filepath": "src/components/form/form_control_layout/form_control_layout_clear_button.tsx"
+    "filepath": "src\\components\\form\\form_control_layout\\form_control_layout_clear_button.tsx"
   },
   {
     "token": "ouiForm.addressFormErrors",
@@ -2499,7 +2499,7 @@
         "index": 2686
       }
     },
-    "filepath": "src/components/form/form.tsx"
+    "filepath": "src\\components\\form\\form.tsx"
   },
   {
     "token": "ouiSuperSelectControl.selectAnOption",
@@ -2517,7 +2517,7 @@
         "index": 4490
       }
     },
-    "filepath": "src/components/form/super_select/super_select_control.tsx"
+    "filepath": "src\\components\\form\\super_select\\super_select_control.tsx"
   },
   {
     "token": "ouiSuperSelect.screenReaderAnnouncement",
@@ -2535,7 +2535,7 @@
         "index": 8818
       }
     },
-    "filepath": "src/components/form/super_select/super_select.tsx"
+    "filepath": "src\\components\\form\\super_select\\super_select.tsx"
   },
   {
     "token": "ouiHeaderLinks.openNavigationMenu",
@@ -2553,7 +2553,7 @@
         "index": 3731
       }
     },
-    "filepath": "src/components/header/header_links/header_links.tsx"
+    "filepath": "src\\components\\header\\header_links\\header_links.tsx"
   },
   {
     "token": "ouiHeaderLinks.appNavigation",
@@ -2571,7 +2571,7 @@
         "index": 4114
       }
     },
-    "filepath": "src/components/header/header_links/header_links.tsx"
+    "filepath": "src\\components\\header\\header_links\\header_links.tsx"
   },
   {
     "token": "ouiImage.closeImage",
@@ -2589,7 +2589,7 @@
         "index": 6763
       }
     },
-    "filepath": "src/components/image/image.tsx"
+    "filepath": "src\\components\\image\\image.tsx"
   },
   {
     "token": "ouiImage.openImage",
@@ -2607,7 +2607,7 @@
         "index": 7508
       }
     },
-    "filepath": "src/components/image/image.tsx"
+    "filepath": "src\\components\\image\\image.tsx"
   },
   {
     "token": "ouiLink.external.ariaLabel",
@@ -2625,7 +2625,7 @@
         "index": 3758
       }
     },
-    "filepath": "src/components/link/link.tsx"
+    "filepath": "src\\components\\link\\link.tsx"
   },
   {
     "token": "ouiLink.newTarget.screenReaderOnlyText",
@@ -2643,11 +2643,11 @@
         "index": 4067
       }
     },
-    "filepath": "src/components/link/link.tsx"
+    "filepath": "src\\components\\link\\link.tsx"
   },
   {
     "token": "ouiPinnableListGroup.pinExtraActionLabel",
-    "defString": "Pin item",
+    "defString": "固定",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2657,15 +2657,15 @@
       },
       "end": {
         "line": 148,
-        "column": 44,
-        "index": 4902
+        "column": 32,
+        "index": 4890
       }
     },
-    "filepath": "src/components/list_group/pinnable_list_group/pinnable_list_group.tsx"
+    "filepath": "src\\components\\list_group\\pinnable_list_group\\pinnable_list_group.tsx"
   },
   {
     "token": "ouiPinnableListGroup.pinnedExtraActionLabel",
-    "defString": "Unpin item",
+    "defString": "取消固定",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2675,11 +2675,11 @@
       },
       "end": {
         "line": 148,
-        "column": 44,
-        "index": 4902
+        "column": 32,
+        "index": 4890
       }
     },
-    "filepath": "src/components/list_group/pinnable_list_group/pinnable_list_group.tsx"
+    "filepath": "src\\components\\list_group\\pinnable_list_group\\pinnable_list_group.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.uploadingFiles",
@@ -2697,7 +2697,7 @@
         "index": 3020
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.openUploadModal",
@@ -2715,7 +2715,7 @@
         "index": 3141
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.unsupportedFileType",
@@ -2733,7 +2733,7 @@
         "index": 3270
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.supportedFileTypes",
@@ -2751,7 +2751,7 @@
         "index": 3441
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.showSyntaxErrors",
@@ -2769,7 +2769,7 @@
         "index": 3552
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.showMarkdownHelp",
@@ -2787,7 +2787,7 @@
         "index": 3670
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.errorsTitle",
@@ -2805,7 +2805,7 @@
         "index": 5367
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.syntaxTitle",
@@ -2823,11 +2823,11 @@
         "index": 6314
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.descriptionPrefix",
-    "defString": "This editor uses",
+    "defString": "此编辑器使用",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2838,14 +2838,14 @@
       "end": {
         "line": 231,
         "column": 19,
-        "index": 6821
+        "index": 6751
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.descriptionSuffix",
-    "defString": "You can also utilize these additional syntax plugins to add rich content to your text.",
+    "defString": "您还可以利用这些额外的语法插件为文本添加丰富的内容。",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -2856,10 +2856,10 @@
       "end": {
         "line": 231,
         "column": 19,
-        "index": 6821
+        "index": 6751
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorFooter.closeButton",
@@ -2869,15 +2869,15 @@
       "start": {
         "line": 262,
         "column": 14,
-        "index": 7932
+        "index": 7862
       },
       "end": {
         "line": 265,
         "column": 16,
-        "index": 8046
+        "index": 7976
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_footer.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_footer.tsx"
   },
   {
     "token": "ouiMarkdownEditorToolbar.editor",
@@ -2895,7 +2895,7 @@
         "index": 6187
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_toolbar.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_toolbar.tsx"
   },
   {
     "token": "ouiMarkdownEditorToolbar.previewMarkdown",
@@ -2913,7 +2913,7 @@
         "index": 6492
       }
     },
-    "filepath": "src/components/markdown_editor/markdown_editor_toolbar.tsx"
+    "filepath": "src\\components\\markdown_editor\\markdown_editor_toolbar.tsx"
   },
   {
     "token": "ouiModal.closeModal",
@@ -2931,7 +2931,7 @@
         "index": 3522
       }
     },
-    "filepath": "src/components/modal/modal.tsx"
+    "filepath": "src\\components\\modal\\modal.tsx"
   },
   {
     "token": "ouiNotificationEventMessages.accordionButtonText",
@@ -2949,7 +2949,7 @@
         "index": 2050
       }
     },
-    "filepath": "src/components/notification/notification_event_messages.tsx"
+    "filepath": "src\\components\\notification\\notification_event_messages.tsx"
   },
   {
     "token": "ouiNotificationEventMessages.accordionAriaLabelButtonText",
@@ -2967,7 +2967,7 @@
         "index": 2294
       }
     },
-    "filepath": "src/components/notification/notification_event_messages.tsx"
+    "filepath": "src\\components\\notification\\notification_event_messages.tsx"
   },
   {
     "token": "ouiNotificationEventMessages.accordionHideText",
@@ -2985,7 +2985,7 @@
         "index": 2405
       }
     },
-    "filepath": "src/components/notification/notification_event_messages.tsx"
+    "filepath": "src\\components\\notification\\notification_event_messages.tsx"
   },
   {
     "token": "ouiNotificationEventMeta.contextMenuButton",
@@ -3003,7 +3003,7 @@
         "index": 4913
       }
     },
-    "filepath": "src/components/notification/notification_event_meta.tsx"
+    "filepath": "src\\components\\notification\\notification_event_meta.tsx"
   },
   {
     "token": "ouiNotificationEventReadButton.markAsReadAria",
@@ -3021,7 +3021,7 @@
         "index": 2241
       }
     },
-    "filepath": "src/components/notification/notification_event_read_button.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_button.tsx"
   },
   {
     "token": "ouiNotificationEventReadButton.markAsUnreadAria",
@@ -3039,7 +3039,7 @@
         "index": 2404
       }
     },
-    "filepath": "src/components/notification/notification_event_read_button.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_button.tsx"
   },
   {
     "token": "ouiNotificationEventReadButton.markAsRead",
@@ -3057,7 +3057,7 @@
         "index": 2511
       }
     },
-    "filepath": "src/components/notification/notification_event_read_button.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_button.tsx"
   },
   {
     "token": "ouiNotificationEventReadButton.markAsUnread",
@@ -3075,7 +3075,7 @@
         "index": 2624
       }
     },
-    "filepath": "src/components/notification/notification_event_read_button.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_button.tsx"
   },
   {
     "token": "ouiNotificationEventReadIcon.readAria",
@@ -3093,7 +3093,7 @@
         "index": 2063
       }
     },
-    "filepath": "src/components/notification/notification_event_read_icon.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_icon.tsx"
   },
   {
     "token": "ouiNotificationEventReadIcon.unreadAria",
@@ -3111,7 +3111,7 @@
         "index": 2207
       }
     },
-    "filepath": "src/components/notification/notification_event_read_icon.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_icon.tsx"
   },
   {
     "token": "ouiNotificationEventReadIcon.read",
@@ -3129,7 +3129,7 @@
         "index": 2284
       }
     },
-    "filepath": "src/components/notification/notification_event_read_icon.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_icon.tsx"
   },
   {
     "token": "ouiNotificationEventReadIcon.unread",
@@ -3147,7 +3147,7 @@
         "index": 2379
       }
     },
-    "filepath": "src/components/notification/notification_event_read_icon.tsx"
+    "filepath": "src\\components\\notification\\notification_event_read_icon.tsx"
   },
   {
     "token": "ouiPaginationButton.longPageString",
@@ -3165,7 +3165,7 @@
         "index": 2814
       }
     },
-    "filepath": "src/components/pagination/pagination_button.tsx"
+    "filepath": "src\\components\\pagination\\pagination_button.tsx"
   },
   {
     "token": "ouiPaginationButton.shortPageString",
@@ -3183,7 +3183,7 @@
         "index": 2994
       }
     },
-    "filepath": "src/components/pagination/pagination_button.tsx"
+    "filepath": "src\\components\\pagination\\pagination_button.tsx"
   },
   {
     "token": "ouiPagination.previousPage",
@@ -3201,7 +3201,7 @@
         "index": 4201
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.disabledPreviousPage",
@@ -3219,7 +3219,7 @@
         "index": 4331
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.firstRangeAriaLabel",
@@ -3237,7 +3237,7 @@
         "index": 5244
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.lastRangeAriaLabel",
@@ -3255,7 +3255,7 @@
         "index": 6184
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.nextPage",
@@ -3273,7 +3273,7 @@
         "index": 6991
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.disabledNextPage",
@@ -3291,7 +3291,7 @@
         "index": 7093
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPagination.pageOfTotalCompressed",
@@ -3309,7 +3309,7 @@
         "index": 8333
       }
     },
-    "filepath": "src/components/pagination/pagination.tsx"
+    "filepath": "src\\components\\pagination\\pagination.tsx"
   },
   {
     "token": "ouiPopover.screenReaderAnnouncement",
@@ -3327,7 +3327,7 @@
         "index": 22291
       }
     },
-    "filepath": "src/components/popover/popover.tsx"
+    "filepath": "src\\components\\popover\\popover.tsx"
   },
   {
     "token": "ouiProgress.valueText",
@@ -3345,11 +3345,11 @@
         "index": 6018
       }
     },
-    "filepath": "src/components/progress/progress.tsx"
+    "filepath": "src\\components\\progress\\progress.tsx"
   },
   {
     "token": "ouiResizableButton.horizontalResizerAriaLabel",
-    "defString": "Press left or right to adjust panels size",
+    "defString": "按左箭头或右箭头调整面板大小",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -3360,14 +3360,14 @@
       "end": {
         "line": 143,
         "column": 9,
-        "index": 4084
+        "index": 4033
       }
     },
-    "filepath": "src/components/resizable_container/resizable_button.tsx"
+    "filepath": "src\\components\\resizable_container\\resizable_button.tsx"
   },
   {
     "token": "ouiResizableButton.verticalResizerAriaLabel",
-    "defString": "Press up or down to adjust panels size",
+    "defString": "按上箭头或下箭头调整面板大小",
     "highlighting": "string",
     "loc": {
       "start": {
@@ -3378,10 +3378,10 @@
       "end": {
         "line": 143,
         "column": 9,
-        "index": 4084
+        "index": 4033
       }
     },
-    "filepath": "src/components/resizable_container/resizable_button.tsx"
+    "filepath": "src\\components\\resizable_container\\resizable_button.tsx"
   },
   {
     "token": "ouiResizablePanel.toggleButtonAriaLabel",
@@ -3399,7 +3399,7 @@
         "index": 10323
       }
     },
-    "filepath": "src/components/resizable_container/resizable_panel.tsx"
+    "filepath": "src\\components\\resizable_container\\resizable_panel.tsx"
   },
   {
     "token": "ouiSelectableListItem.includedOption",
@@ -3417,7 +3417,7 @@
         "index": 3906
       }
     },
-    "filepath": "src/components/selectable/selectable_list/selectable_list_item.tsx"
+    "filepath": "src\\components\\selectable\\selectable_list\\selectable_list_item.tsx"
   },
   {
     "token": "ouiSelectableListItem.includedOptionInstructions",
@@ -3435,7 +3435,7 @@
         "index": 4183
       }
     },
-    "filepath": "src/components/selectable/selectable_list/selectable_list_item.tsx"
+    "filepath": "src\\components\\selectable\\selectable_list\\selectable_list_item.tsx"
   },
   {
     "token": "ouiSelectableListItem.excludedOption",
@@ -3453,7 +3453,7 @@
         "index": 4486
       }
     },
-    "filepath": "src/components/selectable/selectable_list/selectable_list_item.tsx"
+    "filepath": "src\\components\\selectable\\selectable_list\\selectable_list_item.tsx"
   },
   {
     "token": "ouiSelectableListItem.excludedOptionInstructions",
@@ -3471,7 +3471,7 @@
         "index": 4765
       }
     },
-    "filepath": "src/components/selectable/selectable_list/selectable_list_item.tsx"
+    "filepath": "src\\components\\selectable\\selectable_list\\selectable_list_item.tsx"
   },
   {
     "token": "ouiSelectableTemplateSitewide.searchPlaceholder",
@@ -3489,7 +3489,7 @@
         "index": 4434
       }
     },
-    "filepath": "src/components/selectable/selectable_templates/selectable_template_sitewide.tsx"
+    "filepath": "src\\components\\selectable\\selectable_templates\\selectable_template_sitewide.tsx"
   },
   {
     "token": "ouiSelectableTemplateSitewide.loadingResults",
@@ -3507,7 +3507,7 @@
         "index": 6458
       }
     },
-    "filepath": "src/components/selectable/selectable_templates/selectable_template_sitewide.tsx"
+    "filepath": "src\\components\\selectable\\selectable_templates\\selectable_template_sitewide.tsx"
   },
   {
     "token": "ouiSelectableTemplateSitewide.noResults",
@@ -3525,7 +3525,7 @@
         "index": 6704
       }
     },
-    "filepath": "src/components/selectable/selectable_templates/selectable_template_sitewide.tsx"
+    "filepath": "src\\components\\selectable\\selectable_templates\\selectable_template_sitewide.tsx"
   },
   {
     "token": "ouiSelectableTemplateSitewide.onFocusBadgeGoTo",
@@ -3543,7 +3543,7 @@
         "index": 8085
       }
     },
-    "filepath": "src/components/selectable/selectable_templates/selectable_template_sitewide.tsx"
+    "filepath": "src\\components\\selectable\\selectable_templates\\selectable_template_sitewide.tsx"
   },
   {
     "token": "ouiSelectable.loadingOptions",
@@ -3561,7 +3561,7 @@
         "index": 13975
       }
     },
-    "filepath": "src/components/selectable/selectable.tsx"
+    "filepath": "src\\components\\selectable\\selectable.tsx"
   },
   {
     "token": "ouiSelectable.noMatchingOptions",
@@ -3579,7 +3579,7 @@
         "index": 14660
       }
     },
-    "filepath": "src/components/selectable/selectable.tsx"
+    "filepath": "src\\components\\selectable\\selectable.tsx"
   },
   {
     "token": "ouiSelectable.noAvailableOptions",
@@ -3597,7 +3597,7 @@
         "index": 15180
       }
     },
-    "filepath": "src/components/selectable/selectable.tsx"
+    "filepath": "src\\components\\selectable\\selectable.tsx"
   },
   {
     "token": "ouiSelectable.placeholderName",
@@ -3615,7 +3615,7 @@
         "index": 16938
       }
     },
-    "filepath": "src/components/selectable/selectable.tsx"
+    "filepath": "src\\components\\selectable\\selectable.tsx"
   },
   {
     "token": "ouiSelectable.placeholderName",
@@ -3633,7 +3633,7 @@
         "index": 18092
       }
     },
-    "filepath": "src/components/selectable/selectable.tsx"
+    "filepath": "src\\components\\selectable\\selectable.tsx"
   },
   {
     "token": "ouiSplitButton.screenReaderAnnouncement",
@@ -3651,7 +3651,7 @@
         "index": 8136
       }
     },
-    "filepath": "src/components/split_button/split_button.tsx"
+    "filepath": "src\\components\\split_button\\split_button.tsx"
   },
   {
     "token": "ouiStat.loadingText",
@@ -3669,7 +3669,7 @@
         "index": 4535
       }
     },
-    "filepath": "src/components/stat/stat.tsx"
+    "filepath": "src\\components\\stat\\stat.tsx"
   },
   {
     "token": "ouiStepStrings.step",
@@ -3687,7 +3687,7 @@
         "index": 1358
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleStep",
@@ -3705,7 +3705,7 @@
         "index": 1468
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.complete",
@@ -3723,7 +3723,7 @@
         "index": 1734
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleComplete",
@@ -3741,7 +3741,7 @@
         "index": 1860
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.warning",
@@ -3759,7 +3759,7 @@
         "index": 2125
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleWarning",
@@ -3777,7 +3777,7 @@
         "index": 2251
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.errors",
@@ -3795,7 +3795,7 @@
         "index": 2512
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleErrors",
@@ -3813,7 +3813,7 @@
         "index": 2635
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.incomplete",
@@ -3831,7 +3831,7 @@
         "index": 2907
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleIncomplete",
@@ -3849,7 +3849,7 @@
         "index": 3037
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.disabled",
@@ -3867,7 +3867,7 @@
         "index": 3303
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleDisabled",
@@ -3885,7 +3885,7 @@
         "index": 3429
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.loading",
@@ -3903,7 +3903,7 @@
         "index": 3692
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiStepStrings.simpleLoading",
@@ -3921,7 +3921,7 @@
         "index": 3816
       }
     },
-    "filepath": "src/components/steps/step_strings.tsx"
+    "filepath": "src\\components\\steps\\step_strings.tsx"
   },
   {
     "token": "ouiTableSortMobile.sorting",
@@ -3939,7 +3939,7 @@
         "index": 2536
       }
     },
-    "filepath": "src/components/table/mobile/table_sort_mobile.tsx"
+    "filepath": "src\\components\\table\\mobile\\table_sort_mobile.tsx"
   },
   {
     "token": "ouiTableHeaderCell.titleTextWithDesc",
@@ -3957,7 +3957,7 @@
         "index": 3625
       }
     },
-    "filepath": "src/components/table/table_header_cell.tsx"
+    "filepath": "src\\components\\table\\table_header_cell.tsx"
   },
   {
     "token": "ouiTablePagination.rowsPerPage",
@@ -3975,7 +3975,7 @@
         "index": 2895
       }
     },
-    "filepath": "src/components/table/table_pagination/table_pagination.tsx"
+    "filepath": "src\\components\\table\\table_pagination\\table_pagination.tsx"
   },
   {
     "token": "ouiTablePagination.rowsPerPageOption",
@@ -3993,7 +3993,7 @@
         "index": 3514
       }
     },
-    "filepath": "src/components/table/table_pagination/table_pagination.tsx"
+    "filepath": "src\\components\\table\\table_pagination\\table_pagination.tsx"
   },
   {
     "token": "ouiToast.dismissToast",
@@ -4011,7 +4011,7 @@
         "index": 2660
       }
     },
-    "filepath": "src/components/toast/toast.tsx"
+    "filepath": "src\\components\\toast\\toast.tsx"
   },
   {
     "token": "ouiToast.newNotification",
@@ -4029,7 +4029,7 @@
         "index": 3381
       }
     },
-    "filepath": "src/components/toast/toast.tsx"
+    "filepath": "src\\components\\toast\\toast.tsx"
   },
   {
     "token": "ouiToast.notification",
@@ -4047,7 +4047,7 @@
         "index": 3483
       }
     },
-    "filepath": "src/components/toast/toast.tsx"
+    "filepath": "src\\components\\toast\\toast.tsx"
   },
   {
     "token": "ouiTourStepIndicator.isActive",
@@ -4065,7 +4065,7 @@
         "index": 2195
       }
     },
-    "filepath": "src/components/tour/tour_step_indicator.tsx"
+    "filepath": "src\\components\\tour\\tour_step_indicator.tsx"
   },
   {
     "token": "ouiTourStepIndicator.isComplete",
@@ -4083,7 +4083,7 @@
         "index": 2585
       }
     },
-    "filepath": "src/components/tour/tour_step_indicator.tsx"
+    "filepath": "src\\components\\tour\\tour_step_indicator.tsx"
   },
   {
     "token": "ouiTourStepIndicator.isIncomplete",
@@ -4101,7 +4101,7 @@
         "index": 2952
       }
     },
-    "filepath": "src/components/tour/tour_step_indicator.tsx"
+    "filepath": "src\\components\\tour\\tour_step_indicator.tsx"
   },
   {
     "token": "ouiTourStepIndicator.ariaLabel",
@@ -4119,7 +4119,7 @@
         "index": 3334
       }
     },
-    "filepath": "src/components/tour/tour_step_indicator.tsx"
+    "filepath": "src\\components\\tour\\tour_step_indicator.tsx"
   },
   {
     "token": "ouiTourStep.endTour",
@@ -4137,7 +4137,7 @@
         "index": 5533
       }
     },
-    "filepath": "src/components/tour/tour_step.tsx"
+    "filepath": "src\\components\\tour\\tour_step.tsx"
   },
   {
     "token": "ouiTourStep.skipTour",
@@ -4155,7 +4155,7 @@
         "index": 5533
       }
     },
-    "filepath": "src/components/tour/tour_step.tsx"
+    "filepath": "src\\components\\tour\\tour_step.tsx"
   },
   {
     "token": "ouiTourStep.closeTour",
@@ -4173,42 +4173,42 @@
         "index": 5533
       }
     },
-    "filepath": "src/components/tour/tour_step.tsx"
+    "filepath": "src\\components\\tour\\tour_step.tsx"
   },
   {
     "token": "ouiTreeView.listNavigationInstructions",
-    "defString": "You can quickly navigate this list using arrow keys.",
+    "defString": "您可以使用方向键快速导航此列表。",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 292,
+        "line": 345,
         "column": 12,
-        "index": 8498
+        "index": 8399
       },
       "end": {
-        "line": 294,
-        "column": 77,
-        "index": 8645
+        "line": 347,
+        "column": 41,
+        "index": 8510
       }
     },
-    "filepath": "src/components/tree_view/tree_view.tsx"
+    "filepath": "src\\components\\tree_view\\tree_view.tsx"
   },
   {
     "token": "ouiTreeView.ariaLabel",
-    "defString": "{nodeLabel} child of {ariaLabel}",
+    "defString": "{nodeLabel} 是 {ariaLabel} 的子项",
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 316,
+        "line": 369,
         "column": 20,
-        "index": 9496
+        "index": 9361
       },
       "end": {
-        "line": 323,
+        "line": 376,
         "column": 25,
-        "index": 9850
+        "index": 9712
       }
     },
-    "filepath": "src/components/tree_view/tree_view.tsx"
+    "filepath": "src\\components\\tree_view\\tree_view.tsx"
   }
 ]

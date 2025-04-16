@@ -141,7 +141,7 @@ export class OuiFilePicker extends Component<OuiFilePickerProps> {
           'ouiFilePicker.clearSelectedFiles',
           'ouiFilePicker.filesSelected',
         ]}
-        defaults={['Clear selected files', 'files selected']}>
+        defaults={['清除所选文件', '个文件已选中']}>
         {([clearSelectedFiles, filesSelected]: string[]) => {
           const {
             id,

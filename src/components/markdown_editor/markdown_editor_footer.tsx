@@ -226,8 +226,8 @@ export const OuiMarkdownEditorFooter = forwardRef<
                   'ouiMarkdownEditorFooter.descriptionSuffix',
                 ]}
                 defaults={[
-                  'This editor uses',
-                  'You can also utilize these additional syntax plugins to add rich content to your text.',
+                  '此编辑器使用',
+                  '您还可以利用这些额外的语法插件为文本添加丰富的内容。',
                 ]}>
                 {([descriptionPrefix, descriptionSuffix]: ReactChild[]) => (
                   <p>

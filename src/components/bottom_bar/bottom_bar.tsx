@@ -188,9 +188,7 @@ export const OuiBottomBar = forwardRef<
 
     const bar = (
       <>
-        <OuiI18n
-          token="ouiBottomBar.screenReaderHeading"
-          default="页面级控件">
+        <OuiI18n token="ouiBottomBar.screenReaderHeading" default="页面级控件">
           {(screenReaderHeading: string) => (
             // Though it would be better to use aria-labelledby than aria-label and not repeat the same string twice
             // A bug in voiceover won't list some landmarks in the rotor without an aria-label

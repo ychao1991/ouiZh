@@ -148,7 +148,7 @@ export class OuiRelativeTab extends Component<
                 'ouiRelativeTab.numberInputError',
                 'ouiRelativeTab.numberInputLabel',
               ]}
-              defaults={['Must be >= 0', 'Time span amount']}>
+              defaults={['必须大于或等于 0', '时间跨度数值']}>
               {([numberInputError, numberInputLabel]: string[]) => (
                 <OuiFormRow
                   isInvalid={isInvalid}

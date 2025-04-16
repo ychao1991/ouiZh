@@ -142,9 +142,7 @@ export const useDataGridColumnSelector = (
 
   const isDragEnabled = allowColumnReorder && columnSearchText.length === 0; // only allow drag-and-drop when not filtering columns
 
-  let buttonText = (
-    <OuiI18n token="ouiColumnSelector.button" default="列" />
-  );
+  let buttonText = <OuiI18n token="ouiColumnSelector.button" default="列" />;
 
   if (numberOfHiddenFields === 1) {
     buttonText = (

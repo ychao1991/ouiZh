@@ -125,9 +125,7 @@ export function getColumnActions(
   const result: OuiListGroupItemProps[] = [];
   if (column.actions?.showHide !== false) {
     const option = {
-      label: (
-        <OuiI18n token="ouiColumnActions.hideColumn" default="隐藏列" />
-      ),
+      label: <OuiI18n token="ouiColumnActions.hideColumn" default="隐藏列" />,
       onClick: onClickHideColumn,
       iconType: 'eyeClosed',
       size: 'xs',
@@ -220,9 +218,7 @@ export function getColumnActions(
 
   if (column.actions?.showMoveRight !== false) {
     const option = {
-      label: (
-        <OuiI18n token="ouiColumnActions.moveRight" default="向右移动" />
-      ),
+      label: <OuiI18n token="ouiColumnActions.moveRight" default="向右移动" />,
       iconType: 'sortRight',
       size: 'xs',
       color: 'text',

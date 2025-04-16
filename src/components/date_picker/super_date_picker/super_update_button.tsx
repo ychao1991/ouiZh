@@ -126,10 +126,7 @@ export class OuiSuperUpdateButton extends Component<OuiSuperUpdateButtonProps> {
     const classes = classNames('ouiSuperUpdateButton', className);
 
     let buttonText = (
-      <OuiI18n
-        token="ouiSuperUpdateButton.refreshButtonLabel"
-        default="刷新"
-      />
+      <OuiI18n token="ouiSuperUpdateButton.refreshButtonLabel" default="刷新" />
     );
     if (needsUpdate || isLoading) {
       buttonText = isLoading ? (

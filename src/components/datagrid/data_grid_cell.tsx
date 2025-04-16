@@ -150,7 +150,7 @@ const OuiDataGridCellContent: FunctionComponent<
       <p>
         <OuiI18n
           tokens={['ouiDataGridCell.row', 'ouiDataGridCell.column']}
-          defaults={['Row', 'Column']}>
+          defaults={['行', '列']}>
           {([row, column]: ReactChild[]) => (
             <>
               {row}: {rowIndex + 1}, {column}: {colIndex + 1}:

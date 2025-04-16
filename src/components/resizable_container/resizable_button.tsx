@@ -138,8 +138,8 @@ export const OuiResizableButton: FunctionComponent<OuiResizableButtonProps> = ({
         'ouiResizableButton.verticalResizerAriaLabel',
       ]}
       defaults={[
-        'Press left or right to adjust panels size',
-        'Press up or down to adjust panels size',
+        '按左箭头或右箭头调整面板大小',
+        '按上箭头或下箭头调整面板大小',
       ]}>
       {([horizontalResizerAriaLabel, verticalResizerAriaLabel]: string[]) => (
         <button

@@ -128,10 +128,7 @@ export const OuiToast: FunctionComponent<OuiToastProps> = ({
     <div className={classes} {...rest}>
       <OuiScreenReaderOnly>
         <p>
-          <OuiI18n
-            token="ouiToast.newNotification"
-            default="出现新通知"
-          />
+          <OuiI18n token="ouiToast.newNotification" default="出现新通知" />
         </p>
       </OuiScreenReaderOnly>
 

@@ -114,16 +114,10 @@ export const schemaDetectors: OuiDataGridSchemaDetector[] = [
     },
     icon: 'tokenBoolean',
     sortTextAsc: (
-      <OuiI18n
-        token="ouiDataGridSchema.booleanSortTextAsc"
-        default="假-真"
-      />
+      <OuiI18n token="ouiDataGridSchema.booleanSortTextAsc" default="假-真" />
     ),
     sortTextDesc: (
-      <OuiI18n
-        token="ouiDataGridSchema.booleanSortTextDesc"
-        default="真-假"
-      />
+      <OuiI18n token="ouiDataGridSchema.booleanSortTextDesc" default="真-假" />
     ),
   },
   {
@@ -155,16 +149,10 @@ export const schemaDetectors: OuiDataGridSchemaDetector[] = [
     icon: 'currency',
     color: 'ouiColorVis0',
     sortTextAsc: (
-      <OuiI18n
-        token="ouiDataGridSchema.currencySortTextAsc"
-        default="低-高"
-      />
+      <OuiI18n token="ouiDataGridSchema.currencySortTextAsc" default="低-高" />
     ),
     sortTextDesc: (
-      <OuiI18n
-        token="ouiDataGridSchema.currencySortTextDesc"
-        default="高-低"
-      />
+      <OuiI18n token="ouiDataGridSchema.currencySortTextDesc" default="高-低" />
     ),
   },
   {
@@ -233,10 +221,7 @@ export const schemaDetectors: OuiDataGridSchemaDetector[] = [
       <OuiI18n token="ouiDataGridSchema.numberSortTextAsc" default="低-高" />
     ),
     sortTextDesc: (
-      <OuiI18n
-        token="ouiDataGridSchema.numberSortTextDesc"
-        default="高-低"
-      />
+      <OuiI18n token="ouiDataGridSchema.numberSortTextDesc" default="高-低" />
     ),
   },
   {
@@ -261,16 +246,10 @@ export const schemaDetectors: OuiDataGridSchemaDetector[] = [
     },
     icon: 'tokenObject',
     sortTextAsc: (
-      <OuiI18n
-        token="ouiDataGridSchema.jsonSortTextAsc"
-        default="小-大"
-      />
+      <OuiI18n token="ouiDataGridSchema.jsonSortTextAsc" default="小-大" />
     ),
     sortTextDesc: (
-      <OuiI18n
-        token="ouiDataGridSchema.jsonSortTextDesc"
-        default="大-小"
-      />
+      <OuiI18n token="ouiDataGridSchema.jsonSortTextDesc" default="大-小" />
     ),
   },
 ];

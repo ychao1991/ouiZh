@@ -210,9 +210,7 @@ export class OuiQuickSelect extends Component<
           justifyContent="spaceBetween"
           gutterSize="s">
           <OuiFlexItem grow={false}>
-            <OuiI18n
-              token="ouiQuickSelect.quickSelectTitle"
-              default="快速选择">
+            <OuiI18n token="ouiQuickSelect.quickSelectTitle" default="快速选择">
               {(quickSelectTitle: string) => (
                 <div aria-hidden className="ouiFormLabel">
                   {quickSelectTitle}

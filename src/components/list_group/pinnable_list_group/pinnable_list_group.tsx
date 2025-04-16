@@ -145,7 +145,7 @@ export const OuiPinnableListGroup: FunctionComponent<OuiPinnableListGroupProps> 
         'ouiPinnableListGroup.pinExtraActionLabel',
         'ouiPinnableListGroup.pinnedExtraActionLabel',
       ]}
-      defaults={['Pin item', 'Unpin item']}>
+      defaults={['固定', '取消固定']}>
       {([pinExtraActionLabel, pinnedExtraActionLabel]: string[]) => {
         const newListItems = getNewListItems(
           pinExtraActionLabel,

@@ -106,9 +106,7 @@ export const OuiModal: FunctionComponent<OuiModalProps> = ({
           tabIndex={0}
           style={newStyle || style}
           {...rest}>
-          <OuiI18n
-            token="ouiModal.closeModal"
-            default="关闭此模态窗口">
+          <OuiI18n token="ouiModal.closeModal" default="关闭此模态窗口">
             {(closeModal: string) => (
               <OuiButtonIcon
                 iconType="cross"

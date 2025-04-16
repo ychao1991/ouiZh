@@ -1006,7 +1006,7 @@ export const OuiDataGrid: FunctionComponent<OuiDataGridProps> = (props) => {
         'ouiDataGrid.fullScreenButton',
         'ouiDataGrid.fullScreenButtonActive',
       ]}
-      defaults={['Full screen', 'Exit full screen']}>
+      defaults={['全屏', '退出全屏']}>
       {([fullScreenButton, fullScreenButtonActive]: ReactChild[]) => (
         <OuiButtonEmpty
           size="xs"

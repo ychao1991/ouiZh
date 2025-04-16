@@ -157,7 +157,7 @@ export const useDataGridColumnSorting = (
       button={
         <OuiI18n
           tokens={['ouiColumnSorting.button', 'ouiColumnSorting.buttonActive']}
-          defaults={['Sort fields', 'fields sorted']}>
+          defaults={['排序字段', '已排序字段']}>
           {([button, buttonActive]: ReactChild[]) => (
             <OuiButtonEmpty
               size="xs"

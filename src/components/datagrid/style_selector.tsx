@@ -1,31 +1,27 @@
 /*
+ * Copyright OpenSearch Contributors
  * SPDX-License-Identifier: Apache-2.0
- *
- * The OpenSearch Contributors require contributions made to
- * this file be licensed under the Apache-2.0 license or a
- * compatible open source license.
- *
- * Modifications Copyright OpenSearch Contributors. See
- * GitHub history for details.
  */
 
 /*
- * Licensed to Elasticsearch B.V. under one or more contributor
- * license agreements. See the NOTICE file distributed with
- * this work for additional information regarding copyright
- * ownership. Elasticsearch B.V. licenses this file to you under
- * the Apache License, Version 2.0 (the "License"); you may
- * not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * OpenSearch 贡献者要求对本文件的贡献遵循 Apache-2.0 许可或兼容的开源许可。
+ *
+ * 修改版权归 OpenSearch 贡献者所有。详情请查看 GitHub 历史记录。
+ */
+
+/*
+ * 本文件已获得 Elasticsearch B.V. 依据一个或多个贡献者许可协议授权。
+ * 有关版权归属的更多信息，请查看随本工作分发的 NOTICE 文件。
+ * Elasticsearch B.V. 依据 Apache 许可证 2.0 版（“许可证”）将本文件授权给您；
+ * 除非遵守许可证规定，否则您不得使用本文件。
+ * 您可以在以下网址获取许可证副本：
  *
  *    http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
+ * 除非适用法律要求或书面同意，否则依据许可证分发的软件按“原样”分发，
+ * 不附带任何形式的明示或暗示的保证和条件。请查看许可证了解具体的权限和限制规定。
  */
 
 import React, { ReactElement, useState } from 'react';
@@ -63,22 +59,22 @@ const densityStyles: { [key: string]: Partial<OuiDataGridStyle> } = {
 export const useDataGridStyleSelector = (
   initialStyles: OuiDataGridStyle
 ): [ReactElement, OuiDataGridStyle] => {
-  // track styles specified by the user at run time
+  // 跟踪用户在运行时指定的样式
   const [userGridStyles, setUserGridStyles] = useState({});
 
   const [isOpen, setIsOpen] = useState(false);
 
-  // These are the available options. They power the gridDensity hook and also the options in the render
+  // 这些是可用选项。它们驱动 gridDensity hook 以及渲染中的选项
   const densityOptions: string[] = ['expanded', 'normal', 'compact'];
 
-  // Normal is the default density
+  // 正常是默认密度
   const [gridDensity, _setGridDensity] = useState(densityOptions[1]);
   const setGridDensity = (density: string) => {
     _setGridDensity(density);
     setUserGridStyles(densityStyles[density]);
   };
 
-  // merge the developer-specified styles with any user overrides
+  // 合并开发人员指定的样式和用户覆盖的样式
   const gridStyles = {
     ...initialStyles,
     ...userGridStyles,
@@ -111,10 +107,10 @@ export const useDataGridStyleSelector = (
           'ouiStyleSelector.labelCompact',
         ]}
         defaults={[
-          'Select the display density for the data grid',
-          'Expanded density',
-          'Normal density',
-          'Compact density',
+          '选择数据网格的显示密度',
+          '展开密度',
+          '正常密度',
+          '紧凑密度',
         ]}>
         {([
           buttonLegend,

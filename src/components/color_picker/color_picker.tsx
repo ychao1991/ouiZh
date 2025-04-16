@@ -81,18 +81,18 @@ export interface OuiColorPickerOutput {
 
 interface HTMLDivElementOverrides {
   /**
-   * hex (string)
-   * RGB (as comma separated string)
-   * RGBa (as comma separated string)
-   * Empty string will register as 'transparent'
+   * hex (字符串)
+   * RGB (以逗号分隔的字符串)
+   * RGBa (以逗号分隔的字符串)
+   * 空字符串将被视为 '透明'
    */
   color?: string | null;
   onBlur?: () => void;
   /**
-   * text (string, as entered or selected)
-   * hex (8-digit hex if alpha < 1, otherwise 6-digit hex)
-   * RGBa (as array; values of NaN if color is invalid)
-   * isValid (boolean signifying if the input text is a valid color)
+   * text (输入或选择的字符串)
+   * hex (如果透明度 < 1，则为 8 位十六进制，否则为 6 位十六进制)
+   * RGBa (数组形式；如果颜色无效，则值为 NaN)
+   * isValid (布尔值，表示输入文本是否为有效颜色)
    */
   onChange: (text: string, output: OuiColorPickerOutput) => void;
   onFocus?: () => void;
@@ -102,11 +102,11 @@ export interface OuiColorPickerProps
     Omit<HTMLAttributes<HTMLDivElement>, keyof HTMLDivElementOverrides>,
     HTMLDivElementOverrides {
   /**
-   *  Custom element to use instead of text input
+   *  用于替代文本输入的自定义元素
    */
   button?: ReactElement;
   /**
-   *  Use the compressed style for OuiFieldText
+   *  对 OuiFieldText 使用压缩样式
    */
   compressed?: boolean;
   display?: OuiColorPickerDisplay;
@@ -114,54 +114,54 @@ export interface OuiColorPickerProps
   fullWidth?: boolean;
   id?: string;
   /**
-   *  Custom validation flag
+   *  自定义验证标志
    */
   isInvalid?: boolean;
   /**
-   * Choose between swatches with gradient picker (default), swatches only, gradient picker only, or secondary input only.
+   * 选择使用带渐变选择器的色板（默认）、仅色板、仅渐变选择器或仅辅助输入。
    */
   mode?: OuiColorPickerMode;
   /**
-   *  Custom z-index for the popover
+   *  自定义弹出框的 z-index
    */
   popoverZIndex?: number;
   readOnly?: boolean;
   /**
-   *  Array of hex strings (3 or 6 character) to use as swatch options. Defaults to OUI visualization colors
+   *  用于作为色板选项的十六进制字符串数组（3 或 6 个字符）。默认为 OUI 可视化颜色
    */
   swatches?: string[];
 
   /**
-   * Creates an input group with element(s) coming before input. It only shows when the `display` is set to `default`.
-   * `string` | `ReactElement` or an array of these
+   * 创建一个输入组，元素位于输入之前。仅当 `display` 设置为 `default` 时显示。
+   * `string` | `ReactElement` 或这些的数组
    */
   prepend?: OuiFormControlLayoutProps['prepend'];
 
   /**
-   * Creates an input group with element(s) coming after input. It only shows when the `display` is set to `default`.
-   * `string` | `ReactElement` or an array of these
+   * 创建一个输入组，元素位于输入之后。仅当 `display` 设置为 `default` 时显示。
+   * `string` | `ReactElement` 或这些的数组
    */
   append?: OuiFormControlLayoutProps['append'];
   /**
-   * Whether to render the alpha channel (opacity) value range slider.
+   * 是否渲染 Alpha 通道（不透明度）值范围滑块。
    */
   showAlpha?: boolean;
   /**
-   * Will format the text input in the provided format when possible (hue and saturation selection)
-   * Exceptions: Manual text input and swatches will display as-authored
-   * Default is to display the last format entered by the user
+   * 尽可能以提供的格式格式化文本输入（色相和饱和度选择）
+   * 例外：手动文本输入和色板将按输入显示
+   * 默认显示用户最后输入的格式
    */
   format?: 'hex' | 'rgba';
   /**
-   * Placement option for a secondary color value input.
+   * 辅助颜色值输入的放置选项。
    */
   secondaryInputDisplay?: 'top' | 'bottom' | 'none';
   /**
-   * Add a button to the primary input to clear its value.
+   * 向主输入添加一个清除其值的按钮。
    */
   isClearable?: boolean;
   /**
-   * Text to replace the default 'Transparent' placeholder for unset color values.
+   * 替换未设置颜色值时默认的 '透明' 占位符的文本。
    */
   placeholder?: string;
 }
@@ -181,8 +181,8 @@ const getOutput = (
   if (!showAlpha && color !== null) {
     isValid = color.alpha() === 1;
   }
-  // Note that if a consumer has disallowed opacity,
-  // we still return the color with an alpha channel, but mark it as invalid
+  // 请注意，如果使用者不允许不透明度，
+  // 我们仍然返回带有 Alpha 通道的颜色，但将其标记为无效
   return color
     ? {
         rgba: color.rgba(),
@@ -197,8 +197,8 @@ const getOutput = (
 };
 
 const getHsv = (hsv?: number[], fallback: number = 0) => {
-  // Chroma's passthrough (RGB) parsing determines that black/white/gray are hue-less and returns `NaN`
-  // For our purposes we can process `NaN` as `0` if necessary
+  // Chroma 的直通（RGB）解析确定黑色/白色/灰色没有色相，并返回 `NaN`
+  // 出于我们的目的，如果需要，我们可以将 `NaN` 处理为 `0`
   if (!hsv) return HSV_FALLBACK;
   const hue = isNaN(hsv[0]) ? fallback : hsv[0];
   return [hue, hsv[1], hsv[2]] as ColorSpaces['hsv'];
@@ -250,7 +250,7 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
   }, [alphaChannel]);
 
   const [isColorSelectorShown, setIsColorSelectorShown] = useState(false);
-  const [inputRef, setInputRef] = useState<HTMLInputElement | null>(null); // Ideally this is uses `useRef`, but `OuiFieldText` isn't ready for that
+  const [inputRef, setInputRef] = useState<HTMLInputElement | null>(null); // 理想情况下使用 `useRef`，但 `OuiFieldText` 还不支持
   const [popoverShouldOwnFocus, setPopoverShouldOwnFocus] = useState(false);
 
   const prevColor = useRef(chromaColor ? chromaColor.rgba().join() : null);
@@ -296,8 +296,8 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
   };
 
   const handleOnBlur = () => {
-    // `onBlur` also gets called when the popover is closing
-    // so prevent a second `onBlur` if the popover is open
+    // `onBlur` 在弹出框关闭时也会被调用
+    // 因此，如果弹出框打开，则阻止第二次 `onBlur`
     if (!isColorSelectorShown && onBlur) {
       onBlur();
     }
@@ -334,7 +334,7 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
   };
 
   const handleFinalSelection = () => {
-    // When the trigger is an input, focus the input so you can adjust
+    // 当触发器是输入框时，聚焦输入框以便进行调整
     if (inputRef) {
       inputRef.focus();
     }
@@ -467,7 +467,7 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
         'ouiColorPicker.colorErrorMessage',
         'ouiColorPicker.transparent',
       ]}
-      defaults={['Color value', 'Invalid color value', 'Transparent']}>
+      defaults={['颜色值', '无效的颜色值', '透明']}>
       {([colorLabel, colorErrorMessage, transparent]: string[]) => (
         <OuiFormRow
           display="rowCompressed"
@@ -615,7 +615,7 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
         prepend={prepend}
         append={append}>
         <div
-          // Used to pass the chosen color through to form layout SVG using currentColor
+          // 用于通过 currentColor 将所选颜色传递给表单布局 SVG
           style={{
             color: colorStyle,
           }}>
@@ -626,9 +626,9 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
               'ouiColorPicker.transparent',
             ]}
             defaults={[
-              'Press the escape key to close the popover',
-              'Press the down key to open a popover containing color options',
-              'Transparent',
+              '按转义键关闭弹出框',
+              '按向下键打开包含颜色选项的弹出框',
+              '透明',
             ]}>
             {([openLabel, closeLabel, transparent]: string[]) => (
               <OuiFieldText
@@ -683,7 +683,7 @@ export const OuiColorPicker: FunctionComponent<OuiColorPickerProps> = ({
             <p aria-live="polite">
               <OuiI18n
                 token="ouiColorPicker.screenReaderAnnouncement"
-                default="一个包含一系列可选颜色的弹出框已打开。\n                向前按 Tab 键循环选择颜色选项，或按 Esc 键关闭此弹出框。"
+                default="一个包含一系列可选颜色的弹出框已打开。向前按 Tab 键循环选择颜色选项，或按 Esc 键关闭此弹出框。"
               />
             </p>
           </OuiScreenReaderOnly>
