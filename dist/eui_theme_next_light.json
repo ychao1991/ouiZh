@@ -1,0 +1,1455 @@
+{
+  "ouiContrastRatioText": 4.5,
+  "ouiContrastRatioGraphic": 3,
+  "ouiContrastRatioDisabled": 2,
+  "euiContrastRatioText": 4.5,
+  "euiContrastRatioGraphic": 3,
+  "euiContrastRatioDisabled": 2,
+  "ouiSize": "16px",
+  "ouiSizeXS": "4px",
+  "ouiSizeS": "8px",
+  "ouiSizeM": "12px",
+  "ouiSizeL": "24px",
+  "ouiSizeXL": "32px",
+  "ouiSizeXXL": "40px",
+  "ouiButtonMinWidth": "112px",
+  "ouiScrollBar": "16px",
+  "ouiScrollBarCorner": "6px",
+  "euiSize": "16px",
+  "euiSizeXS": "4px",
+  "euiSizeS": "8px",
+  "euiSizeM": "12px",
+  "euiSizeL": "24px",
+  "euiSizeXL": "32px",
+  "euiSizeXXL": "40px",
+  "euiButtonMinWidth": "112px",
+  "euiScrollBar": "16px",
+  "euiScrollBarCorner": "6px",
+  "ouiColorGhost": "#FCFEFF",
+  "ouiColorInk": "#0A121A",
+  "ouiColorPrimary": "#07827E",
+  "ouiColorSecondary": "#017D73",
+  "ouiColorAccent": "#DD0A73",
+  "ouiColorSuccess": "#017D73",
+  "ouiColorWarning": "#F5A700",
+  "ouiColorDanger": "#BD271E",
+  "ouiColorEmptyShade": "#FCFEFF",
+  "ouiColorLightestShade": "#E3E5E8",
+  "ouiColorLightShade": "#D6D9DD",
+  "ouiColorMediumShade": "#ADB4BA",
+  "ouiColorDarkShade": "#5A6875",
+  "ouiColorDarkestShade": "#2A3947",
+  "ouiColorFullShade": "#0A1219",
+  "ouiPageBackgroundColor": "#F0F2F4",
+  "ouiColorHighlight": "#FFFCDD",
+  "ouiTextColor": "#2A3947",
+  "ouiTitleColor": "#1a2631",
+  "ouiTextSubduedColor": "#676e75",
+  "ouiColorDisabled": "#bdc3c8",
+  "ouiColorPrimaryText": "#077774",
+  "ouiColorSecondaryText": "#01786f",
+  "ouiColorAccentText": "#d20a6f",
+  "ouiColorWarningText": "#8f680b",
+  "ouiColorDangerText": "#BD271E",
+  "ouiColorDisabledText": "#a4aaaf",
+  "ouiColorSuccessText": "#01786f",
+  "ouiLinkColor": "#077774",
+  "ouiPaletteColorBlind": {
+    "ouiColorVis0": {
+      "graphic": "#54B399",
+      "behindText": "#6DCCB1"
+    },
+    "ouiColorVis1": {
+      "graphic": "#6092C0",
+      "behindText": "#79AAD9"
+    },
+    "ouiColorVis2": {
+      "graphic": "#D36086",
+      "behindText": "#EE789D"
+    },
+    "ouiColorVis3": {
+      "graphic": "#9170B8",
+      "behindText": "#A987D1"
+    },
+    "ouiColorVis4": {
+      "graphic": "#CA8EAE",
+      "behindText": "#E4A6C7"
+    },
+    "ouiColorVis5": {
+      "graphic": "#D6BF57",
+      "behindText": "#F1D86F"
+    },
+    "ouiColorVis6": {
+      "graphic": "#B9A888",
+      "behindText": "#D2C0A0"
+    },
+    "ouiColorVis7": {
+      "graphic": "#DA8B45",
+      "behindText": "#F5A35C"
+    },
+    "ouiColorVis8": {
+      "graphic": "#AA6556",
+      "behindText": "#C47C6C"
+    },
+    "ouiColorVis9": {
+      "graphic": "#E7664C",
+      "behindText": "#FF7E62"
+    }
+  },
+  "ouiPaletteColorBlindKeys": "'ouiColorVis0', 'ouiColorVis1', 'ouiColorVis2', 'ouiColorVis3', 'ouiColorVis4', 'ouiColorVis5', 'ouiColorVis6', 'ouiColorVis7', 'ouiColorVis8', 'ouiColorVis9'",
+  "ouiColorVis0": "#54B399",
+  "ouiColorVis1": "#6092C0",
+  "ouiColorVis2": "#D36086",
+  "ouiColorVis3": "#9170B8",
+  "ouiColorVis4": "#CA8EAE",
+  "ouiColorVis5": "#D6BF57",
+  "ouiColorVis6": "#B9A888",
+  "ouiColorVis7": "#DA8B45",
+  "ouiColorVis8": "#AA6556",
+  "ouiColorVis9": "#E7664C",
+  "ouiColorChartLines": "#dcdfe2",
+  "ouiColorChartBand": "#E3E5E8",
+  "ouiCodeBlockBackgroundColor": "#E3E5E8",
+  "ouiCodeBlockColor": "#2A3947",
+  "ouiCodeBlockSelectedBackgroundColor": "inherit",
+  "ouiCodeBlockCommentColor": "#5e656c",
+  "ouiCodeBlockSelectorTagColor": "inherit",
+  "ouiCodeBlockStringColor": "#9d4c6a",
+  "ouiCodeBlockTagColor": "#446889",
+  "ouiCodeBlockNameColor": "#446889",
+  "ouiCodeBlockNumberColor": "#356d63",
+  "ouiCodeBlockKeywordColor": "#735b95",
+  "ouiCodeBlockFunctionTitleColor": "inherit",
+  "ouiCodeBlockTypeColor": "#446889",
+  "ouiCodeBlockAttributeColor": "inherit",
+  "ouiCodeBlockSymbolColor": "#9d4a3c",
+  "ouiCodeBlockParamsColor": "inherit",
+  "ouiCodeBlockMetaColor": "#5e656c",
+  "ouiCodeBlockTitleColor": "#875b34",
+  "ouiCodeBlockSectionColor": "#9d4a3c",
+  "ouiCodeBlockAdditionColor": "#356d63",
+  "ouiCodeBlockDeletionColor": "#BD271E",
+  "ouiCodeBlockSelectorClassColor": "inherit",
+  "ouiCodeBlockSelectorIdColor": "inherit",
+  "euiColorGhost": "#FCFEFF",
+  "euiColorInk": "#0A121A",
+  "euiColorPrimary": "#07827E",
+  "euiColorSecondary": "#017D73",
+  "euiColorAccent": "#DD0A73",
+  "euiColorSuccess": "#017D73",
+  "euiColorWarning": "#F5A700",
+  "euiColorDanger": "#BD271E",
+  "euiColorEmptyShade": "#FCFEFF",
+  "euiColorLightestShade": "#E3E5E8",
+  "euiColorLightShade": "#D6D9DD",
+  "euiColorMediumShade": "#ADB4BA",
+  "euiColorDarkShade": "#5A6875",
+  "euiColorDarkestShade": "#2A3947",
+  "euiColorFullShade": "#0A1219",
+  "euiPageBackgroundColor": "#F0F2F4",
+  "euiColorHighlight": "#FFFCDD",
+  "euiTextColor": "#2A3947",
+  "euiTitleColor": "#1a2631",
+  "euiTextSubduedColor": "#676e75",
+  "euiColorDisabled": "#bdc3c8",
+  "euiColorPrimaryText": "#077774",
+  "euiColorSecondaryText": "#01786f",
+  "euiColorAccentText": "#d20a6f",
+  "euiColorWarningText": "#8f680b",
+  "euiColorDangerText": "#BD271E",
+  "euiColorDisabledText": "#a4aaaf",
+  "euiColorSuccessText": "#01786f",
+  "euiLinkColor": "#077774",
+  "euiPaletteColorBlind": {
+    "euiColorVis0": {
+      "graphic": "#54B399",
+      "behindText": "#6DCCB1"
+    },
+    "euiColorVis1": {
+      "graphic": "#6092C0",
+      "behindText": "#79AAD9"
+    },
+    "euiColorVis2": {
+      "graphic": "#D36086",
+      "behindText": "#EE789D"
+    },
+    "euiColorVis3": {
+      "graphic": "#9170B8",
+      "behindText": "#A987D1"
+    },
+    "euiColorVis4": {
+      "graphic": "#CA8EAE",
+      "behindText": "#E4A6C7"
+    },
+    "euiColorVis5": {
+      "graphic": "#D6BF57",
+      "behindText": "#F1D86F"
+    },
+    "euiColorVis6": {
+      "graphic": "#B9A888",
+      "behindText": "#D2C0A0"
+    },
+    "euiColorVis7": {
+      "graphic": "#DA8B45",
+      "behindText": "#F5A35C"
+    },
+    "euiColorVis8": {
+      "graphic": "#AA6556",
+      "behindText": "#C47C6C"
+    },
+    "euiColorVis9": {
+      "graphic": "#E7664C",
+      "behindText": "#FF7E62"
+    }
+  },
+  "euiPaletteColorBlindKeys": "'euiColorVis0', 'euiColorVis1', 'euiColorVis2', 'euiColorVis3', 'euiColorVis4', 'euiColorVis5', 'euiColorVis6', 'euiColorVis7', 'euiColorVis8', 'euiColorVis9'",
+  "euiColorVis0": "#54B399",
+  "euiColorVis1": "#6092C0",
+  "euiColorVis2": "#D36086",
+  "euiColorVis3": "#9170B8",
+  "euiColorVis4": "#CA8EAE",
+  "euiColorVis5": "#D6BF57",
+  "euiColorVis6": "#B9A888",
+  "euiColorVis7": "#DA8B45",
+  "euiColorVis8": "#AA6556",
+  "euiColorVis9": "#E7664C",
+  "euiColorChartLines": "#dcdfe2",
+  "euiColorChartBand": "#E3E5E8",
+  "euiCodeBlockBackgroundColor": "#E3E5E8",
+  "euiCodeBlockColor": "#2A3947",
+  "euiCodeBlockSelectedBackgroundColor": "inherit",
+  "euiCodeBlockCommentColor": "#5e656c",
+  "euiCodeBlockSelectorTagColor": "inherit",
+  "euiCodeBlockStringColor": "#9d4c6a",
+  "euiCodeBlockTagColor": "#446889",
+  "euiCodeBlockNameColor": "#446889",
+  "euiCodeBlockNumberColor": "#356d63",
+  "euiCodeBlockKeywordColor": "#735b95",
+  "euiCodeBlockFunctionTitleColor": "inherit",
+  "euiCodeBlockTypeColor": "#446889",
+  "euiCodeBlockAttributeColor": "inherit",
+  "euiCodeBlockSymbolColor": "#9d4a3c",
+  "euiCodeBlockParamsColor": "inherit",
+  "euiCodeBlockMetaColor": "#5e656c",
+  "euiCodeBlockTitleColor": "#875b34",
+  "euiCodeBlockSectionColor": "#9d4a3c",
+  "euiCodeBlockAdditionColor": "#356d63",
+  "euiCodeBlockDeletionColor": "#BD271E",
+  "euiCodeBlockSelectorClassColor": "inherit",
+  "euiCodeBlockSelectorIdColor": "inherit",
+  "ouiAnimSlightBounce": "cubic-bezier(0.34, 1.61, 0.7, 1)",
+  "ouiAnimSlightResistance": "cubic-bezier(0.694, 0.0482, 0.335, 1)",
+  "ouiAnimSpeedExtraFast": "90ms",
+  "ouiAnimSpeedFast": "150ms",
+  "ouiAnimSpeedNormal": "250ms",
+  "ouiAnimSpeedSlow": "350ms",
+  "ouiAnimSpeedExtraSlow": "500ms",
+  "euiAnimSlightBounce": "cubic-bezier(0.34, 1.61, 0.7, 1)",
+  "euiAnimSlightResistance": "cubic-bezier(0.694, 0.0482, 0.335, 1)",
+  "euiAnimSpeedExtraFast": "90ms",
+  "euiAnimSpeedFast": "150ms",
+  "euiAnimSpeedNormal": "250ms",
+  "euiAnimSpeedSlow": "350ms",
+  "euiAnimSpeedExtraSlow": "500ms",
+  "ouiFontFamily": "'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "ouiCodeFontFamily": "'Source Code Pro', Consolas, Menlo, Courier, monospace",
+  "ouiFontFeatureSettings": "calt 1 kern 1 liga 1",
+  "ouiTextScale": "2.25 1.75 1.25 1.125 1 0.875 0.75",
+  "ouiFontSize": "18px",
+  "ouiFontSizeXS": "13.5px",
+  "ouiFontSizeS": "15.75px",
+  "ouiFontSizeM": "20.25px",
+  "ouiFontSizeL": "22.5px",
+  "ouiFontSizeXL": "31.5px",
+  "ouiFontSizeXXL": "40.5px",
+  "ouiLineHeight": 1.333333,
+  "ouiBodyLineHeight": 1,
+  "ouiFontWeightLight": 300,
+  "ouiFontWeightRegular": 400,
+  "ouiFontWeightMedium": 500,
+  "ouiFontWeightSemiBold": 600,
+  "ouiFontWeightBold": 700,
+  "ouiCodeFontWeightRegular": 400,
+  "ouiCodeFontWeightBold": 700,
+  "ouiTitles": {
+    "xxxs": {
+      "font-size": "13.5px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 700,
+      "letter-spacing": "-0.005em"
+    },
+    "xxs": {
+      "font-size": "15.75px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 700,
+      "letter-spacing": "-0.005em"
+    },
+    "xs": {
+      "font-size": "18px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 600,
+      "letter-spacing": "-0.02em"
+    },
+    "s": {
+      "font-size": "22.5px",
+      "line-height": "1.7777777778rem",
+      "font-weight": 500,
+      "letter-spacing": "-0.025em"
+    },
+    "m": {
+      "font-size": "31.5px",
+      "line-height": "2.2222222222rem",
+      "font-weight": 300,
+      "letter-spacing": "-0.04em"
+    },
+    "l": {
+      "font-size": "40.5px",
+      "line-height": "2.6666666667rem",
+      "font-weight": 300,
+      "letter-spacing": "-0.03em"
+    }
+  },
+  "euiFontFamily": "'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "euiCodeFontFamily": "'Source Code Pro', Consolas, Menlo, Courier, monospace",
+  "euiFontFeatureSettings": "calt 1 kern 1 liga 1",
+  "euiTextScale": "2.25 1.75 1.25 1.125 1 0.875 0.75",
+  "euiFontSize": "18px",
+  "euiFontSizeXS": "13.5px",
+  "euiFontSizeS": "15.75px",
+  "euiFontSizeM": "20.25px",
+  "euiFontSizeL": "22.5px",
+  "euiFontSizeXL": "31.5px",
+  "euiFontSizeXXL": "40.5px",
+  "euiLineHeight": 1.333333,
+  "euiBodyLineHeight": 1,
+  "euiFontWeightLight": 300,
+  "euiFontWeightRegular": 400,
+  "euiFontWeightMedium": 500,
+  "euiFontWeightSemiBold": 600,
+  "euiFontWeightBold": 700,
+  "euiCodeFontWeightRegular": 400,
+  "euiCodeFontWeightBold": 700,
+  "euiTitles": {
+    "xxxs": {
+      "font-size": "13.5px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 700,
+      "letter-spacing": "-0.005em"
+    },
+    "xxs": {
+      "font-size": "15.75px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 700,
+      "letter-spacing": "-0.005em"
+    },
+    "xs": {
+      "font-size": "18px",
+      "line-height": "1.3333333333rem",
+      "font-weight": 600,
+      "letter-spacing": "-0.02em"
+    },
+    "s": {
+      "font-size": "22.5px",
+      "line-height": "1.7777777778rem",
+      "font-weight": 500,
+      "letter-spacing": "-0.025em"
+    },
+    "m": {
+      "font-size": "31.5px",
+      "line-height": "2.2222222222rem",
+      "font-weight": 300,
+      "letter-spacing": "-0.04em"
+    },
+    "l": {
+      "font-size": "40.5px",
+      "line-height": "2.6666666667rem",
+      "font-weight": 300,
+      "letter-spacing": "-0.03em"
+    }
+  },
+  "ouiBorderWidthThin": "1px",
+  "ouiBorderWidthThick": "2px",
+  "ouiBorderColor": "#D6D9DD",
+  "ouiBorderRadius": "4px",
+  "ouiBorderRadiusSmall": "2px",
+  "ouiBorderThick": "2px solid #D6D9DD",
+  "ouiBorderThin": "1px solid #D6D9DD",
+  "ouiBorderEditable": "2px dotted #D6D9DD",
+  "euiBorderWidthThin": "1px",
+  "euiBorderWidthThick": "2px",
+  "euiBorderColor": "#D6D9DD",
+  "euiBorderRadius": "4px",
+  "euiBorderRadiusSmall": "2px",
+  "euiBorderThick": "2px solid #D6D9DD",
+  "euiBorderThin": "1px solid #D6D9DD",
+  "euiBorderEditable": "2px dotted #D6D9DD",
+  "ouiBreakpoints": {
+    "xs": 0,
+    "s": "575px",
+    "m": "768px",
+    "l": "992px",
+    "xl": "1200px"
+  },
+  "ouiBreakpointKeys": "'xs', 's', 'm', 'l', 'xl'",
+  "euiBreakpoints": {
+    "xs": 0,
+    "s": "575px",
+    "m": "768px",
+    "l": "992px",
+    "xl": "1200px"
+  },
+  "euiBreakpointKeys": "'xs', 's', 'm', 'l', 'xl'",
+  "ouiShadowColor": "#ADB4BA",
+  "ouiShadowColorLarge": "#526474",
+  "euiShadowColor": "#ADB4BA",
+  "euiShadowColorLarge": "#526474",
+  "ouiFocusRingColor": "rgba(7, 130, 126, 0.3)",
+  "ouiFocusRingAnimStartColor": "rgba(7, 130, 126, 0)",
+  "ouiFocusRingAnimStartSize": "6px",
+  "ouiFocusRingAnimStartSizeLarge": "10px",
+  "ouiFocusRingSizeLarge": "4px",
+  "ouiFocusRingSize": "3px",
+  "ouiFocusChangePercent": "90%",
+  "ouiFocusBackgroundColor": "#e4f2f2",
+  "euiFocusRingColor": "rgba(7, 130, 126, 0.3)",
+  "euiFocusRingAnimStartColor": "rgba(7, 130, 126, 0)",
+  "euiFocusRingAnimStartSize": "6px",
+  "euiFocusRingAnimStartSizeLarge": "10px",
+  "euiFocusRingSizeLarge": "4px",
+  "euiFocusRingSize": "3px",
+  "euiFocusChangePercent": "90%",
+  "euiFocusBackgroundColor": "#e4f2f2",
+  "ouiZLevel0": 0,
+  "ouiZLevel1": 1000,
+  "ouiZLevel2": 2000,
+  "ouiZLevel3": 3000,
+  "ouiZLevel4": 4000,
+  "ouiZLevel5": 5000,
+  "ouiZLevel6": 6000,
+  "ouiZLevel7": 7000,
+  "ouiZLevel8": 8000,
+  "ouiZLevel9": 9000,
+  "ouiZToastList": 9000,
+  "ouiZModal": 8000,
+  "ouiZMask": 6000,
+  "ouiZNavigation": 6000,
+  "ouiZContentMenu": 2000,
+  "ouiZHeader": 1000,
+  "ouiZFlyout": 1000,
+  "ouiZMaskBelowHeader": 1000,
+  "ouiZContent": 0,
+  "euiZLevel0": 0,
+  "euiZLevel1": 1000,
+  "euiZLevel2": 2000,
+  "euiZLevel3": 3000,
+  "euiZLevel4": 4000,
+  "euiZLevel5": 5000,
+  "euiZLevel6": 6000,
+  "euiZLevel7": 7000,
+  "euiZLevel8": 8000,
+  "euiZLevel9": 9000,
+  "euiZToastList": 9000,
+  "euiZModal": 8000,
+  "euiZMask": 6000,
+  "euiZNavigation": 6000,
+  "euiZContentMenu": 2000,
+  "euiZHeader": 1000,
+  "euiZFlyout": 1000,
+  "euiZMaskBelowHeader": 1000,
+  "euiZContent": 0,
+  "ouiButtonHeight": "40px",
+  "ouiButtonHeightSmall": "32px",
+  "ouiButtonHeightXSmall": "24px",
+  "ouiButtonColorDisabled": "#bdc3c8",
+  "ouiButtonColorDisabledText": "#a4aaaf",
+  "ouiButtonColorGhostDisabled": "#5A6875",
+  "ouiButtonTypes": {
+    "primary": "#07827E",
+    "accent": "#DD0A73",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "subdued": "#676e75",
+    "ghost": "#FCFEFF",
+    "text": "#5A6875"
+  },
+  "euiButtonHeight": "40px",
+  "euiButtonHeightSmall": "32px",
+  "euiButtonHeightXSmall": "24px",
+  "euiButtonColorDisabled": "#bdc3c8",
+  "euiButtonColorDisabledText": "#a4aaaf",
+  "euiButtonColorGhostDisabled": "#5A6875",
+  "euiButtonTypes": {
+    "primary": "#07827E",
+    "accent": "#DD0A73",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "subdued": "#676e75",
+    "ghost": "#FCFEFF",
+    "text": "#5A6875"
+  },
+  "ouiFormMaxWidth": "400px",
+  "ouiFormControlHeight": "40px",
+  "ouiFormControlCompressedHeight": "32px",
+  "ouiFormControlPadding": "12px",
+  "ouiFormControlCompressedPadding": "8px",
+  "ouiFormControlBorderRadius": 0,
+  "ouiFormControlCompressedBorderRadius": "2px",
+  "ouiRadioSize": "16px",
+  "ouiCheckBoxSize": "16px",
+  "ouiCheckboxBorderRadius": "4px",
+  "ouiSwitchHeight": "20px",
+  "ouiSwitchWidth": "44px",
+  "ouiSwitchThumbSize": "20px",
+  "ouiSwitchIconHeight": "16px",
+  "ouiSwitchHeightCompressed": "16px",
+  "ouiSwitchWidthCompressed": "28px",
+  "ouiSwitchThumbSizeCompressed": "16px",
+  "ouiSwitchHeightMini": "10px",
+  "ouiSwitchWidthMini": "22px",
+  "ouiSwitchThumbSizeMini": "10px",
+  "ouiFormBackgroundColor": "#f2f4f6",
+  "ouiFormBackgroundDisabledColor": "#dde0e3",
+  "ouiFormBackgroundReadOnlyColor": "rgba(214, 217, 221, 0.05)",
+  "ouiFormBorderOpaqueColor": "#14435b",
+  "ouiFormBorderColor": "rgba(20, 67, 91, 0.1)",
+  "ouiFormBorderDisabledColor": "rgba(20, 67, 91, 0.1)",
+  "ouiFormCustomControlDisabledIconColor": "#6f767d",
+  "ouiFormCustomControlBorderColor": "#bcbfc3",
+  "ouiFormControlDisabledColor": "#ADB4BA",
+  "ouiFormControlBoxShadow": "0 1px 1px -1px rgba(173, 180, 186, 0.2) 0 3px 2px -2px rgba(173, 180, 186, 0.2)",
+  "ouiFormControlPlaceholderText": "#676e75",
+  "ouiFormInputGroupLabelBackground": "#e9ecee",
+  "ouiFormInputGroupBorder": "1px solid #e5e8ea",
+  "ouiSwitchOffColor": "rgba(173, 180, 186, 0.2)",
+  "ouiFormControlLayoutGroupInputHeight": "38px",
+  "ouiFormControlLayoutGroupInputCompressedHeight": "30px",
+  "ouiFormControlLayoutGroupInputCompressedBorderRadius": "1px",
+  "ouiRangeTrackColor": "#5A6875",
+  "ouiRangeThumbRadius": "50%",
+  "ouiRangeThumbHeight": "16px",
+  "ouiRangeThumbWidth": "16px",
+  "ouiRangeThumbBorderColor": "#5A6875",
+  "ouiRangeTrackWidth": "100%",
+  "ouiRangeTrackHeight": "2px",
+  "ouiRangeTrackBorderWidth": 0,
+  "ouiRangeTrackBorderColor": "#5A6875",
+  "ouiRangeTrackRadius": "4px",
+  "ouiRangeDisabledOpacity": 0.25,
+  "ouiRangeHighlightHeight": "4px",
+  "euiFormMaxWidth": "400px",
+  "euiFormControlHeight": "40px",
+  "euiFormControlCompressedHeight": "32px",
+  "euiFormControlPadding": "12px",
+  "euiFormControlCompressedPadding": "8px",
+  "euiFormControlBorderRadius": 0,
+  "euiFormControlCompressedBorderRadius": "2px",
+  "euiRadioSize": "16px",
+  "euiCheckBoxSize": "16px",
+  "euiCheckboxBorderRadius": "4px",
+  "euiSwitchHeight": "20px",
+  "euiSwitchWidth": "44px",
+  "euiSwitchThumbSize": "20px",
+  "euiSwitchIconHeight": "16px",
+  "euiSwitchHeightCompressed": "16px",
+  "euiSwitchWidthCompressed": "28px",
+  "euiSwitchThumbSizeCompressed": "16px",
+  "euiSwitchHeightMini": "10px",
+  "euiSwitchWidthMini": "22px",
+  "euiSwitchThumbSizeMini": "10px",
+  "euiFormBackgroundColor": "#f2f4f6",
+  "euiFormBackgroundDisabledColor": "#dde0e3",
+  "euiFormBackgroundReadOnlyColor": "rgba(214, 217, 221, 0.05)",
+  "euiFormBorderOpaqueColor": "#14435b",
+  "euiFormBorderColor": "rgba(20, 67, 91, 0.1)",
+  "euiFormBorderDisabledColor": "rgba(20, 67, 91, 0.1)",
+  "euiFormCustomControlDisabledIconColor": "#6f767d",
+  "euiFormCustomControlBorderColor": "#bcbfc3",
+  "euiFormControlDisabledColor": "#ADB4BA",
+  "euiFormControlBoxShadow": "0 1px 1px -1px rgba(173, 180, 186, 0.2) 0 3px 2px -2px rgba(173, 180, 186, 0.2)",
+  "euiFormControlPlaceholderText": "#676e75",
+  "euiFormInputGroupLabelBackground": "#e9ecee",
+  "euiFormInputGroupBorder": "1px solid #e5e8ea",
+  "euiSwitchOffColor": "rgba(173, 180, 186, 0.2)",
+  "euiFormControlLayoutGroupInputHeight": "38px",
+  "euiFormControlLayoutGroupInputCompressedHeight": "30px",
+  "euiFormControlLayoutGroupInputCompressedBorderRadius": "1px",
+  "euiRangeTrackColor": "#5A6875",
+  "euiRangeThumbRadius": "50%",
+  "euiRangeThumbHeight": "16px",
+  "euiRangeThumbWidth": "16px",
+  "euiRangeThumbBorderColor": "#5A6875",
+  "euiRangeTrackWidth": "100%",
+  "euiRangeTrackHeight": "2px",
+  "euiRangeTrackBorderWidth": 0,
+  "euiRangeTrackBorderColor": "#5A6875",
+  "euiRangeTrackRadius": "4px",
+  "euiRangeDisabledOpacity": 0.25,
+  "euiRangeHighlightHeight": "4px",
+  "ouiHeaderBackgroundColor": "#F0F2F4",
+  "ouiHeaderDarkBackgroundColor": "#172430",
+  "ouiHeaderBorderColor": "#D6D9DD",
+  "ouiHeaderBreadcrumbColor": "#2A3947",
+  "ouiHeaderHeight": "48px",
+  "ouiHeaderChildSize": "48px",
+  "ouiHeaderHeightCompensation": "49px",
+  "euiHeaderBackgroundColor": "#F0F2F4",
+  "euiHeaderDarkBackgroundColor": "#172430",
+  "euiHeaderBorderColor": "#D6D9DD",
+  "euiHeaderBreadcrumbColor": "#2A3947",
+  "euiHeaderHeight": "48px",
+  "euiHeaderChildSize": "48px",
+  "euiHeaderHeightCompensation": "49px",
+  "ouiPageDefaultMaxWidth": "1000px",
+  "ouiPageSidebarMinWidth": "192px",
+  "euiPageDefaultMaxWidth": "1000px",
+  "euiPageSidebarMinWidth": "192px",
+  "ouiPanelPaddingModifiers": {
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "ouiPanelBorderRadiusModifiers": {
+    "borderRadiusNone": 0,
+    "borderRadiusMedium": "4px"
+  },
+  "ouiPanelBackgroundColorModifiers": {
+    "transparent": "transparent",
+    "plain": "#FCFEFF",
+    "subdued": "#F0F2F4",
+    "accent": "#f9e6f1",
+    "primary": "#e4f2f2",
+    "success": "#e3f1f1",
+    "warning": "#fbf5e6",
+    "danger": "#f6e9e9"
+  },
+  "euiPanelPaddingModifiers": {
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "euiPanelBorderRadiusModifiers": {
+    "borderRadiusNone": 0,
+    "borderRadiusMedium": "4px"
+  },
+  "euiPanelBackgroundColorModifiers": {
+    "transparent": "transparent",
+    "plain": "#FCFEFF",
+    "subdued": "#F0F2F4",
+    "accent": "#f9e6f1",
+    "primary": "#e4f2f2",
+    "success": "#e3f1f1",
+    "warning": "#fbf5e6",
+    "danger": "#f6e9e9"
+  },
+  "ouiTooltipBackgroundColor": "#293847",
+  "ouiTooltipAnimations": {
+    "top": "ouiToolTipTop",
+    "left": "ouiToolTipBottom",
+    "bottom": "ouiToolTipLeft",
+    "right": "ouiToolTipRight"
+  },
+  "euiTooltipBackgroundColor": "#293847",
+  "euiTooltipAnimations": {
+    "top": "ouiToolTipTop",
+    "left": "ouiToolTipBottom",
+    "bottom": "ouiToolTipLeft",
+    "right": "ouiToolTipRight"
+  },
+  "ouiCollapsibleNavBackgroundColor": "#F0F2F4",
+  "ouiCollapsibleNavGroupNoneBackgroundColor": "#F0F2F4",
+  "ouiCollapsibleNavGroupLightBackgroundColor": "#F0F2F4",
+  "ouiCollapsibleNavGroupDarkBackgroundColor": "#24313e",
+  "ouiCollapsibleNavGroupDarkHighContrastColor": "#138884",
+  "euiCollapsibleNavBackgroundColor": "#F0F2F4",
+  "euiCollapsibleNavGroupNoneBackgroundColor": "#F0F2F4",
+  "euiCollapsibleNavGroupLightBackgroundColor": "#F0F2F4",
+  "euiCollapsibleNavGroupDarkBackgroundColor": "#24313e",
+  "euiCollapsibleNavGroupDarkHighContrastColor": "#138884",
+  "paddingSizes": {
+    "xs": "4px",
+    "s": "8px",
+    "m": "16px",
+    "l": "24px",
+    "xl": "32px"
+  },
+  "avatarSizing": {
+    "s": {
+      "size": "24px",
+      "font-size": "12px"
+    },
+    "m": {
+      "size": "32px",
+      "font-size": "14.4px"
+    },
+    "l": {
+      "size": "40px",
+      "font-size": "19.2px"
+    },
+    "xl": {
+      "size": "64px",
+      "font-size": "25.6px"
+    }
+  },
+  "ouiBadgeGroupGutterTypes": {
+    "gutterExtraSmall": "4px",
+    "gutterSmall": "8px"
+  },
+  "euiBadgeGroupGutterTypes": {
+    "gutterExtraSmall": "4px",
+    "gutterSmall": "8px"
+  },
+  "ouiButtonEmptyTypes": {
+    "primary": "#077774",
+    "danger": "#BD271E",
+    "disabled": "#a4aaaf",
+    "ghost": "#FCFEFF",
+    "text": "#2A3947",
+    "success": "#01786f",
+    "warning": "#8f680b"
+  },
+  "euiButtonEmptyTypes": {
+    "primary": "#077774",
+    "danger": "#BD271E",
+    "disabled": "#a4aaaf",
+    "ghost": "#FCFEFF",
+    "text": "#2A3947",
+    "success": "#01786f",
+    "warning": "#8f680b"
+  },
+  "ouiBreadcrumbSpacing": "8px",
+  "ouiBreadcrumbTruncateWidth": "160px",
+  "ouiBreadcrumbActiveBackground": "#b7dbdb",
+  "ouiBreadcrumbInactiveBackground": "#dbdee2",
+  "ouiBreadcrumbCollapsedLink": "#09393d",
+  "ouiBreadcrumbInactiveTextColor": "#5a6168",
+  "ouiBreadCrumbHoverColor": "#4d545c",
+  "euiBreadcrumbSpacing": "8px",
+  "euiBreadcrumbTruncateWidth": "160px",
+  "euiBreadcrumbActiveBackground": "#b7dbdb",
+  "euiBreadcrumbInactiveBackground": "#dbdee2",
+  "euiBreadcrumbCollapsedLink": "#09393d",
+  "euiBreadcrumbInactiveTextColor": "#5a6168",
+  "euiBreadCrumbHoverColor": "#4d545c",
+  "ouiCallOutTypes": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E"
+  },
+  "euiCallOutTypes": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E"
+  },
+  "ouiCardSpacing": "16px",
+  "ouiCardBottomNodeHeight": "40px",
+  "ouiCardSelectButtonBorders": {
+    "text": "#017D73",
+    "primary": "#07827E",
+    "success": "#017D73",
+    "danger": "#BD271E",
+    "ghost": "#5A6875"
+  },
+  "ouiCardSelectButtonBackgrounds": {
+    "text": "#E3E5E8",
+    "primary": "#e4f2f2",
+    "success": "#e3f1f1",
+    "danger": "#f6e9e9",
+    "ghost": "#5A6875"
+  },
+  "ouiCardPaddingModifiers": {
+    "paddingNone": 0,
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "euiCardSpacing": "16px",
+  "euiCardBottomNodeHeight": "40px",
+  "euiCardSelectButtonBorders": {
+    "text": "#017D73",
+    "primary": "#07827E",
+    "success": "#017D73",
+    "danger": "#BD271E",
+    "ghost": "#5A6875"
+  },
+  "euiCardSelectButtonBackgrounds": {
+    "text": "#E3E5E8",
+    "primary": "#e4f2f2",
+    "success": "#e3f1f1",
+    "danger": "#f6e9e9",
+    "ghost": "#5A6875"
+  },
+  "euiCardPaddingModifiers": {
+    "paddingNone": 0,
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "ouiCheckableCardPadding": "16px",
+  "euiCheckableCardPadding": "16px",
+  "ouiColorPickerValueRange0": "rgb(255, 255, 255)",
+  "ouiColorPickerValueRange1": "rgba(255, 255, 255, 0)",
+  "ouiColorPickerSaturationRange0": "rgb(0, 0, 0)",
+  "ouiColorPickerSaturationRange1": "rgba(0, 0, 0, 0)",
+  "ouiColorPickerIndicatorSize": "12px",
+  "ouiColorPickerWidth": "152px",
+  "euiColorPickerValueRange0": "rgb(255, 255, 255)",
+  "euiColorPickerValueRange1": "rgba(255, 255, 255, 0)",
+  "euiColorPickerSaturationRange0": "rgb(0, 0, 0)",
+  "euiColorPickerSaturationRange1": "rgba(0, 0, 0, 0)",
+  "euiColorPickerIndicatorSize": "12px",
+  "euiColorPickerWidth": "152px",
+  "ouiColorPaletteDisplaySizes": {
+    "sizeExtraSmall": "4px",
+    "sizeSmall": "8px",
+    "sizeMedium": "16px"
+  },
+  "euiColorPaletteDisplaySizes": {
+    "sizeExtraSmall": "4px",
+    "sizeSmall": "8px",
+    "sizeMedium": "16px"
+  },
+  "ouiContextMenuWidth": "256px",
+  "euiContextMenuWidth": "256px",
+  "ouiControlBarBackground": "#2A3947",
+  "ouiControlBarText": "white",
+  "ouiControlBarBorderColor": "rgba(252, 254, 255, 0.2)",
+  "ouiControlBarInitialHeight": "40px",
+  "ouiControlBarMaxHeight": "calc(100vh - 80px)",
+  "ouiControlBarHeights": {
+    "s": "240px",
+    "m": "480px",
+    "l": "100vh"
+  },
+  "euiControlBarBackground": "#2A3947",
+  "euiControlBarText": "white",
+  "euiControlBarBorderColor": "rgba(252, 254, 255, 0.2)",
+  "euiControlBarInitialHeight": "40px",
+  "euiControlBarMaxHeight": "calc(100vh - 80px)",
+  "euiControlBarHeights": {
+    "s": "240px",
+    "m": "480px",
+    "l": "100vh"
+  },
+  "ouiDatePickerCalendarWidth": "284px",
+  "euiDatePickerCalendarWidth": "284px",
+  "ouiSuperDatePickerWidth": "480px",
+  "ouiSuperDatePickerButtonWidth": "118px",
+  "euiSuperDatePickerWidth": "480px",
+  "euiSuperDatePickerButtonWidth": "118px",
+  "ouiDataGridColumnResizerWidth": "3px",
+  "ouiDataGridPopoverMaxHeight": "400px",
+  "ouiDataGridCellPaddingS": "4px",
+  "ouiDataGridCellPaddingM": "6px",
+  "ouiDataGridCellPaddingL": "8px",
+  "ouiDataGridVerticalBorder": "solid 1px #edeff1",
+  "euiDataGridColumnResizerWidth": "3px",
+  "euiDataGridPopoverMaxHeight": "400px",
+  "euiDataGridCellPaddingS": "4px",
+  "euiDataGridCellPaddingM": "6px",
+  "euiDataGridCellPaddingL": "8px",
+  "euiDataGridVerticalBorder": "solid 1px #edeff1",
+  "ouiDataGridPrefix": ".ouiDataGrid--",
+  "ouiDataGridStyles": "bordersAll bordersNone bordersHorizontal paddingSmall paddingMedium paddingLarge stripes rowHoverNone rowHoverHighlight headerShade headerUnderline footerShade footerOverline fontSizeSmall fontSizeLarge noControls stickyFooter",
+  "euiDataGridPrefix": ".ouiDataGrid--",
+  "euiDataGridStyles": "bordersAll bordersNone bordersHorizontal paddingSmall paddingMedium paddingLarge stripes rowHoverNone rowHoverHighlight headerShade headerUnderline footerShade footerOverline fontSizeSmall fontSizeLarge noControls stickyFooter",
+  "ouiDragAndDropSpacing": {
+    "s": "2px",
+    "m": "4px",
+    "l": "8px"
+  },
+  "euiDragAndDropSpacing": {
+    "s": "2px",
+    "m": "4px",
+    "l": "8px"
+  },
+  "ouiTextConstrainedMaxWidth": "36em",
+  "euiTextConstrainedMaxWidth": "36em",
+  "ouiExpressionColors": {
+    "subdued": "#676e75",
+    "primary": "#077774",
+    "success": "#01786f",
+    "secondary": "#01786f",
+    "warning": "#8f680b",
+    "danger": "#BD271E",
+    "accent": "#d20a6f"
+  },
+  "euiExpressionColors": {
+    "subdued": "#676e75",
+    "primary": "#077774",
+    "success": "#01786f",
+    "secondary": "#01786f",
+    "warning": "#8f680b",
+    "danger": "#BD271E",
+    "accent": "#d20a6f"
+  },
+  "ouiFacetGutterSizes": {
+    "gutterNone": 0,
+    "gutterSmall": "4px",
+    "gutterMedium": "8px",
+    "gutterLarge": "12px"
+  },
+  "euiFacetGutterSizes": {
+    "gutterNone": 0,
+    "gutterSmall": "4px",
+    "gutterMedium": "8px",
+    "gutterLarge": "12px"
+  },
+  "gutterTypes": {
+    "gutterNone": 0,
+    "gutterSmall": "8px",
+    "gutterMedium": "16px",
+    "gutterLarge": "24px",
+    "gutterXLarge": "32px"
+  },
+  "fractions": {
+    "fourths": {
+      "percentage": "25%",
+      "count": 4
+    },
+    "thirds": {
+      "percentage": "33.3%",
+      "count": 3
+    },
+    "halves": {
+      "percentage": "50%",
+      "count": 2
+    },
+    "single": {
+      "percentage": "100%",
+      "count": 1
+    }
+  },
+  "ouiFlyoutBorder": "1px solid #D6D9DD",
+  "ouiFlyoutPaddingModifiers": {
+    "paddingNone": 0,
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "euiFlyoutBorder": "1px solid #D6D9DD",
+  "euiFlyoutPaddingModifiers": {
+    "paddingNone": 0,
+    "paddingSmall": "8px",
+    "paddingMedium": "16px",
+    "paddingLarge": "24px"
+  },
+  "flyoutSizes": {
+    "small": {
+      "min": "384px",
+      "width": "25vw",
+      "max": "403px"
+    },
+    "medium": {
+      "min": "424px",
+      "width": "50vw",
+      "max": "768px"
+    },
+    "large": {
+      "min": "691px",
+      "width": "75vw",
+      "max": "992px"
+    }
+  },
+  "ouiFilePickerTallHeight": "128px",
+  "euiFilePickerTallHeight": "128px",
+  "ouiRangeLevelColors": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E"
+  },
+  "euiRangeLevelColors": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E"
+  },
+  "textareaResizing": {
+    "vertical": "resizeVertical",
+    "horizontal": "resizeHorizontal",
+    "both": "resizeBoth",
+    "none": "resizeNone"
+  },
+  "ouiHeaderLinksGutterSizes": {
+    "gutterXS": "4px",
+    "gutterS": "8px",
+    "gutterM": "12px",
+    "gutterL": "24px"
+  },
+  "euiHeaderLinksGutterSizes": {
+    "gutterXS": "4px",
+    "gutterS": "8px",
+    "gutterM": "12px",
+    "gutterL": "24px"
+  },
+  "ruleMargins": {
+    "marginXSmall": "8px",
+    "marginSmall": "12px",
+    "marginMedium": "16px",
+    "marginLarge": "24px",
+    "marginXLarge": "32px",
+    "marginXXLarge": "40px"
+  },
+  "ouiIconLoadingOpacity": 0.05,
+  "ouiIconColors": {
+    "accent": "#DD0A73",
+    "danger": "#BD271E",
+    "ghost": "#FCFEFF",
+    "primary": "#07827E",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "subdued": "#676e75",
+    "text": "#2A3947",
+    "warning": "#b68006",
+    "inherit": "inherit"
+  },
+  "ouiIconSizes": {
+    "small": "12px",
+    "medium": "16px",
+    "large": "24px",
+    "xLarge": "32px",
+    "xxLarge": "40px"
+  },
+  "euiIconLoadingOpacity": 0.05,
+  "euiIconColors": {
+    "accent": "#DD0A73",
+    "danger": "#BD271E",
+    "ghost": "#FCFEFF",
+    "primary": "#07827E",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "subdued": "#676e75",
+    "text": "#2A3947",
+    "warning": "#b68006",
+    "inherit": "inherit"
+  },
+  "euiIconSizes": {
+    "small": "12px",
+    "medium": "16px",
+    "large": "24px",
+    "xLarge": "32px",
+    "xxLarge": "40px"
+  },
+  "ouiKeyPadMenuSize": "96px",
+  "ouiKeyPadMenuItemBetaBadgeSize": "20px",
+  "euiKeyPadMenuSize": "96px",
+  "euiKeyPadMenuItemBetaBadgeSize": "20px",
+  "ouiLinkColors": {
+    "subdued": "#676e75",
+    "primary": "#077774",
+    "secondary": "#01786f",
+    "success": "#01786f",
+    "accent": "#d20a6f",
+    "warning": "#8f680b",
+    "danger": "#BD271E",
+    "text": "#2A3947",
+    "ghost": "#FCFEFF"
+  },
+  "euiLinkColors": {
+    "subdued": "#676e75",
+    "primary": "#077774",
+    "secondary": "#01786f",
+    "success": "#01786f",
+    "accent": "#d20a6f",
+    "warning": "#8f680b",
+    "danger": "#BD271E",
+    "text": "#2A3947",
+    "ghost": "#FCFEFF"
+  },
+  "ouiListGroupItemHoverBackground": "rgba(214, 217, 221, 0.25)",
+  "ouiListGroupItemHoverBackgroundGhost": "rgba(252, 254, 255, 0.1)",
+  "ouiListGroupGutterTypes": {
+    "gutterSmall": "8px",
+    "gutterMedium": "16px"
+  },
+  "ouiListGroupItemColorTypes": {
+    "primary": "#077774",
+    "text": "#2A3947",
+    "subdued": "#676e75",
+    "ghost": "#FCFEFF"
+  },
+  "ouiListGroupItemSizeTypes": {
+    "xSmall": "13.5px",
+    "small": "15.75px",
+    "medium": "18px",
+    "large": "22.5px"
+  },
+  "euiListGroupItemHoverBackground": "rgba(214, 217, 221, 0.25)",
+  "euiListGroupItemHoverBackgroundGhost": "rgba(252, 254, 255, 0.1)",
+  "euiListGroupGutterTypes": {
+    "gutterSmall": "8px",
+    "gutterMedium": "16px"
+  },
+  "euiListGroupItemColorTypes": {
+    "primary": "#077774",
+    "text": "#2A3947",
+    "subdued": "#676e75",
+    "ghost": "#FCFEFF"
+  },
+  "euiListGroupItemSizeTypes": {
+    "xSmall": "13.5px",
+    "small": "15.75px",
+    "medium": "18px",
+    "large": "22.5px"
+  },
+  "ouiGradientStartStop": "#eff1f3",
+  "ouiGradientMiddle": "#f4f7f8",
+  "euiGradientStartStop": "#eff1f3",
+  "euiGradientMiddle": "#f4f7f8",
+  "ouiMarkdownEditorMinHeight": "150px",
+  "euiMarkdownEditorMinHeight": "150px",
+  "browserDefaultFontSize": "16px",
+  "ouiPopoverArrowSize": "12px",
+  "ouiPopoverTranslateDistance": "8px",
+  "euiPopoverArrowSize": "12px",
+  "euiPopoverTranslateDistance": "8px",
+  "ouiProgressColors": {
+    "primary": "#07827E",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "accent": "#DD0A73",
+    "subdued": "#676e75",
+    "vis0": "#54B399",
+    "vis1": "#6092C0",
+    "vis2": "#D36086",
+    "vis3": "#9170B8",
+    "vis4": "#CA8EAE",
+    "vis5": "#D6BF57",
+    "vis6": "#B9A888",
+    "vis7": "#DA8B45",
+    "vis8": "#AA6556",
+    "vis9": "#E7664C",
+    "customColor": "currentColor"
+  },
+  "euiProgressColors": {
+    "primary": "#07827E",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "accent": "#DD0A73",
+    "subdued": "#676e75",
+    "vis0": "#54B399",
+    "vis1": "#6092C0",
+    "vis2": "#D36086",
+    "vis3": "#9170B8",
+    "vis4": "#CA8EAE",
+    "vis5": "#D6BF57",
+    "vis6": "#B9A888",
+    "vis7": "#DA8B45",
+    "vis8": "#AA6556",
+    "vis9": "#E7664C",
+    "customColor": "currentColor"
+  },
+  "ouiProgressSizes": {
+    "xs": "2px",
+    "s": "4px",
+    "m": "8px",
+    "l": "16px"
+  },
+  "euiProgressSizes": {
+    "xs": "2px",
+    "s": "4px",
+    "m": "8px",
+    "l": "16px"
+  },
+  "ouiResizableButtonTransitionSpeed": "150ms",
+  "ouiResizableButtonSize": "16px",
+  "euiResizableButtonTransitionSpeed": "150ms",
+  "euiResizableButtonSize": "16px",
+  "ouiSideNavEmphasizedBackgroundColor": "rgba(214, 217, 221, 0.3)",
+  "ouiSideNavRootTextcolor": "#1a2631",
+  "ouiSideNavBranchTextcolor": "#626970",
+  "ouiSideNavSelectedTextcolor": "#077270",
+  "ouiSideNavDisabledTextcolor": "#9ca2a8",
+  "euiSideNavEmphasizedBackgroundColor": "rgba(214, 217, 221, 0.3)",
+  "euiSideNavRootTextcolor": "#1a2631",
+  "euiSideNavBranchTextcolor": "#626970",
+  "euiSideNavSelectedTextcolor": "#077270",
+  "euiSideNavDisabledTextcolor": "#9ca2a8",
+  "spacerSizes": {
+    "xs": "4px",
+    "s": "8px",
+    "m": "16px",
+    "l": "24px",
+    "xl": "32px",
+    "xxl": "40px"
+  },
+  "ouiSelectableListItemBorder": "1px solid #dde0e3",
+  "ouiSelectableListItemPadding": "4px 12px",
+  "euiSelectableListItemBorder": "1px solid #dde0e3",
+  "euiSelectableListItemPadding": "4px 12px",
+  "ouiSelectableTemplateSitewideTypes": {
+    "application": {
+      "color": "#4a7195",
+      "font-weight": 500
+    },
+    "deployment": {
+      "color": "#39776b",
+      "font-weight": 500
+    },
+    "article": {
+      "color": "#785f9b",
+      "font-weight": 500
+    },
+    "case": {
+      "color": "#ad5040",
+      "font-weight": 500
+    },
+    "platform": {
+      "color": "#736b39",
+      "font-weight": 500
+    }
+  },
+  "euiSelectableTemplateSitewideTypes": {
+    "application": {
+      "color": "#4a7195",
+      "font-weight": 500
+    },
+    "deployment": {
+      "color": "#39776b",
+      "font-weight": 500
+    },
+    "article": {
+      "color": "#785f9b",
+      "font-weight": 500
+    },
+    "case": {
+      "color": "#ad5040",
+      "font-weight": 500
+    },
+    "platform": {
+      "color": "#736b39",
+      "font-weight": 500
+    }
+  },
+  "splitButtonSeparatorColor": "#094a4c",
+  "ouiStepNumberSize": "32px",
+  "ouiStepNumberSmallSize": "24px",
+  "ouiStepNumberMargin": "16px",
+  "ouiStepStatusColorsToFade": {
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "disabled": "#5A6875",
+    "incomplete": "#5A6875"
+  },
+  "euiStepNumberSize": "32px",
+  "euiStepNumberSmallSize": "24px",
+  "euiStepNumberMargin": "16px",
+  "euiStepStatusColorsToFade": {
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "disabled": "#5A6875",
+    "incomplete": "#5A6875"
+  },
+  "ouiSuggestItemColors": {
+    "tint0": "#54B399",
+    "tint1": "#6092C0",
+    "tint2": "#D36086",
+    "tint3": "#9170B8",
+    "tint4": "#CA8EAE",
+    "tint5": "#D6BF57",
+    "tint6": "#B9A888",
+    "tint7": "#DA8B45",
+    "tint8": "#AA6556",
+    "tint9": "#E7664C",
+    "tint10": "#5A6875"
+  },
+  "euiSuggestItemColors": {
+    "tint0": "#54B399",
+    "tint1": "#6092C0",
+    "tint2": "#D36086",
+    "tint3": "#9170B8",
+    "tint4": "#CA8EAE",
+    "tint5": "#D6BF57",
+    "tint6": "#B9A888",
+    "tint7": "#DA8B45",
+    "tint8": "#AA6556",
+    "tint9": "#E7664C",
+    "tint10": "#5A6875"
+  },
+  "ouiTableCellContentPadding": "8px",
+  "ouiTableCellContentPaddingCompressed": "4px",
+  "ouiTableCellCheckboxWidth": "32px",
+  "ouiTableActionsAreaWidth": "40px",
+  "ouiTableHoverColor": "#f0f2f4",
+  "ouiTableSelectedColor": "#ebf6f6",
+  "ouiTableHoverSelectedColor": "#e4f2f2",
+  "ouiTableActionsBorderColor": "rgba(173, 180, 186, 0.1)",
+  "ouiTableHoverClickableColor": "rgba(7, 130, 126, 0.05)",
+  "ouiTableFocusClickableColor": "rgba(7, 130, 126, 0.1)",
+  "euiTableCellContentPadding": "8px",
+  "euiTableCellContentPaddingCompressed": "4px",
+  "euiTableCellCheckboxWidth": "32px",
+  "euiTableActionsAreaWidth": "40px",
+  "euiTableHoverColor": "#f0f2f4",
+  "euiTableSelectedColor": "#ebf6f6",
+  "euiTableHoverSelectedColor": "#e4f2f2",
+  "euiTableActionsBorderColor": "rgba(173, 180, 186, 0.1)",
+  "euiTableHoverClickableColor": "rgba(7, 130, 126, 0.05)",
+  "euiTableFocusClickableColor": "rgba(7, 130, 126, 0.1)",
+  "ouiTabFontSize": "18px",
+  "ouiTabFontSizeS": "15.75px",
+  "ouiTabFontSizeL": "20.25px",
+  "euiTabFontSize": "18px",
+  "euiTabFontSizeS": "15.75px",
+  "euiTabFontSizeL": "20.25px",
+  "ouiToastWidth": "320px",
+  "ouiToastTypes": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#bf8605",
+    "danger": "#BD271E"
+  },
+  "euiToastTypes": {
+    "primary": "#07827E",
+    "success": "#017D73",
+    "warning": "#bf8605",
+    "danger": "#BD271E"
+  },
+  "euiToastWidth": "320px",
+  "ouiTokenGrayColor": "#5A6875",
+  "ouiTokenTypes": {
+    "ouiColorVis0": {
+      "graphic": "#54B399",
+      "behindText": "#6DCCB1"
+    },
+    "ouiColorVis1": {
+      "graphic": "#6092C0",
+      "behindText": "#79AAD9"
+    },
+    "ouiColorVis2": {
+      "graphic": "#D36086",
+      "behindText": "#EE789D"
+    },
+    "ouiColorVis3": {
+      "graphic": "#9170B8",
+      "behindText": "#A987D1"
+    },
+    "ouiColorVis4": {
+      "graphic": "#CA8EAE",
+      "behindText": "#E4A6C7"
+    },
+    "ouiColorVis5": {
+      "graphic": "#D6BF57",
+      "behindText": "#F1D86F"
+    },
+    "ouiColorVis6": {
+      "graphic": "#B9A888",
+      "behindText": "#D2C0A0"
+    },
+    "ouiColorVis7": {
+      "graphic": "#DA8B45",
+      "behindText": "#F5A35C"
+    },
+    "ouiColorVis8": {
+      "graphic": "#AA6556",
+      "behindText": "#C47C6C"
+    },
+    "ouiColorVis9": {
+      "graphic": "#E7664C",
+      "behindText": "#FF7E62"
+    },
+    "gray": {
+      "graphic": "#5A6875",
+      "behindText": "#5A6875"
+    }
+  },
+  "ouiTokenTypeKeys": "'ouiColorVis0', 'ouiColorVis1', 'ouiColorVis2', 'ouiColorVis3', 'ouiColorVis4', 'ouiColorVis5', 'ouiColorVis6', 'ouiColorVis7', 'ouiColorVis8', 'ouiColorVis9', 'gray'",
+  "euiTokenGrayColor": "#5A6875",
+  "euiTokenTypes": {
+    "euiColorVis0": {
+      "graphic": "#54B399",
+      "behindText": "#6DCCB1"
+    },
+    "euiColorVis1": {
+      "graphic": "#6092C0",
+      "behindText": "#79AAD9"
+    },
+    "euiColorVis2": {
+      "graphic": "#D36086",
+      "behindText": "#EE789D"
+    },
+    "euiColorVis3": {
+      "graphic": "#9170B8",
+      "behindText": "#A987D1"
+    },
+    "euiColorVis4": {
+      "graphic": "#CA8EAE",
+      "behindText": "#E4A6C7"
+    },
+    "euiColorVis5": {
+      "graphic": "#D6BF57",
+      "behindText": "#F1D86F"
+    },
+    "euiColorVis6": {
+      "graphic": "#B9A888",
+      "behindText": "#D2C0A0"
+    },
+    "euiColorVis7": {
+      "graphic": "#DA8B45",
+      "behindText": "#F5A35C"
+    },
+    "euiColorVis8": {
+      "graphic": "#AA6556",
+      "behindText": "#C47C6C"
+    },
+    "euiColorVis9": {
+      "graphic": "#E7664C",
+      "behindText": "#FF7E62"
+    },
+    "gray": {
+      "graphic": "#5A6875",
+      "behindText": "#5A6875"
+    }
+  },
+  "euiTokenTypeKeys": "'euiColorVis0', 'euiColorVis1', 'euiColorVis2', 'euiColorVis3', 'euiColorVis4', 'euiColorVis5', 'euiColorVis6', 'euiColorVis7', 'euiColorVis8', 'euiColorVis9', 'gray'",
+  "ouiTextColors": {
+    "default": "#2A3947",
+    "subdued": "#676e75",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "accent": "#DD0A73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "ghost": "#FCFEFF"
+  },
+  "euiTextColors": {
+    "default": "#2A3947",
+    "subdued": "#676e75",
+    "secondary": "#017D73",
+    "success": "#017D73",
+    "accent": "#DD0A73",
+    "warning": "#F5A700",
+    "danger": "#BD271E",
+    "ghost": "#FCFEFF"
+  },
+  "ouiColorVis0_behindText": "#6DCCB1",
+  "ouiColorVis1_behindText": "#79AAD9",
+  "ouiColorVis2_behindText": "#EE789D",
+  "ouiColorVis3_behindText": "#A987D1",
+  "ouiColorVis4_behindText": "#E4A6C7",
+  "ouiColorVis5_behindText": "#F1D86F",
+  "ouiColorVis6_behindText": "#D2C0A0",
+  "ouiColorVis7_behindText": "#F5A35C",
+  "ouiColorVis8_behindText": "#C47C6C",
+  "ouiColorVis9_behindText": "#FF7E62",
+  "euiColorVis0_behindText": "#6DCCB1",
+  "euiColorVis1_behindText": "#79AAD9",
+  "euiColorVis2_behindText": "#EE789D",
+  "euiColorVis3_behindText": "#A987D1",
+  "euiColorVis4_behindText": "#E4A6C7",
+  "euiColorVis5_behindText": "#F1D86F",
+  "euiColorVis6_behindText": "#D2C0A0",
+  "euiColorVis7_behindText": "#F5A35C",
+  "euiColorVis8_behindText": "#C47C6C",
+  "euiColorVis9_behindText": "#FF7E62"
+}

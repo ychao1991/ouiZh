@@ -8,7 +8,6 @@ test/failure-screenshots/**/*.png
 coverage/
 reports/
 tmp/
-/dist/
 /docs/
 /lib/
 es/
